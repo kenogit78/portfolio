@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    text-align: center;
+}
+
+
+.logo{
+    margin-left: 3em;
+}
+
+.logo a{
+ font-size: 20px;
+}
+
+.nav-links ul{
+    display: flex;
+    width: 100%;
+}
+
+.nav-links li {
+    width: 100%;
+    margin-right: 2em;
+    list-style: none;
+}

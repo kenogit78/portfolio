@@ -1,0 +1,17 @@
+.home-container{
+    height: 100vh;
+    margin: 2em 5em;
+    display: flex;
+    width: 100%;
+  
+}
+
+.profile{
+    flex:1;
+}
+
+.text{
+    flex:1;
+}
+
+
