@@ -1,0 +1,14 @@
+.about-container{
+    
+    height: 100vh;
+    width: 95vw;
+    margin: 2em;
+    display: flex;
+    padding: 1.5em;  
+
+}
+
+.about-container h1{
+    font-size: 3.5em;
+    font-family: Aclonica;
+}

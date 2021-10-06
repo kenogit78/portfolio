@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4em;
+    font-family: Aclonica;
+}
+
+h2{
+    font-size: 2em;
+    font-family: Aclonica; 
+}
+
+p{
+    font-family: Noticia;
+    line-height: 1.5em;
+    color: #505050;
+}

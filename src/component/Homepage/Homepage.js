@@ -5,6 +5,7 @@ import Resume from '../Resume/Resume';
 import Work from '../Work/Work';
 import styles from './homepage.module.css';
 import Image from '../../assets/paul.png';
+import Footer from '../Footer/Footer';
 
 const Homepage = () => {
     return (
@@ -13,11 +14,13 @@ const Homepage = () => {
 
                 <div className={styles["text"]} >
                     <h1> Hi, I'm Keno, </h1>
-                    <p> a <span> Frontend Web Developer</span></p>
+                    <p> a <span> Frontend Web Developer.</span></p>
                     <br />
-                    <p> I specialize in Website & Web application development </p>
                     <br />
-                    <p> I believe in creating solutions for business and comapanies with clean codes</p>
+                    <p> I specialize in providing Web solutions by writing clean codes for Websites & Web applications. </p>
+                    <br />
+                    <br />
+                    <p> I believe in creating products that have relevance in our present world.</p>
                 </div>
 
                 <div className={styles["profile"]}>
@@ -37,6 +40,7 @@ const Homepage = () => {
             <Resume />
             <About />
             <Contact />
+            <Footer />
         </div>
     )
 }

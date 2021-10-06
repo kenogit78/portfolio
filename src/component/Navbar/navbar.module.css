@@ -1,10 +1,11 @@
 .nav-container{
     display: flex;
-    width: 80%;
+    width: 95%;
     justify-content: space-between;
     align-items: center;
     margin: 2em;
     text-align: center;
+    padding: 1.5em;
 }
 
 
@@ -16,6 +17,10 @@
  font-size: 20px;
 }
 
+.nav-links{
+    width: 35%;
+}
+
 .nav-links ul{
     display: flex;
     width: 100%;
@@ -23,6 +28,8 @@
 
 .nav-links li {
     width: 100%;
-    margin-right: 2em;
     list-style: none;
+    font-family: Noticia;
+    color: #505050;
+    font-size: 18px;
 }

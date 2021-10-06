@@ -1,0 +1,28 @@
+.resume-container{
+    
+    height: 100vh;
+    width: 95vw;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;  
+
+}
+
+.resume-container h1{
+    margin: 1em 0;
+}
+
+.div-section h2{
+    margin: 1em 0;
+}
+
+.resume-section{
+    display: flex;
+    
+}
+
+.div-section{
+    width: 50%;
+}
+

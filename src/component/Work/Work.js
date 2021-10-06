@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import styles from './work.module.css';
 
 const Work = () => {
     return (
-        <div>
-            <h1> Work </h1>
+        <div className={styles["work-container"]} >
+            
+            <h1> Selected Works </h1>
+
+            <div >
+
+            </div>
+
+            <div>
+
+            </div>
         </div>
     )
 }
