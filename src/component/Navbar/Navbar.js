@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className={styles["nav-container"]}>
 
             <div className={styles["logo"]}>
-                <a> PAUL KENO</a>
+                <a href="/"> PAUL KENO</a>
             </div>
 
             <div className={styles["nav-links"]} >
