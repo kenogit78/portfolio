@@ -12,10 +12,20 @@ const Resume = () => {
                 <div className={styles["div-section"]} >
                     <h2> Work Experience </h2>
 
-                    <h3> HNGi8 Internship</h3>
-                    <br />
-                    <p> Frontend Developer </p>
-                    <p> 2021 - current </p>
+                    <div className={styles["sub-div"]} >
+                        <h3> HNGi8 Internship</h3>
+                        <br />
+                        <p> Frontend Developer </p>
+                        <p> August 2021 - current </p>
+                    </div>
+
+                    <div className={styles["sub-div"]}>
+                        <h3> Google Africa Developer internship </h3>
+                        <br />
+                        <p> Frontend Developer </p>
+                        <p> July 2021 - current </p>
+                    </div>
+
                 </div>
 
                 <div className={styles["div-section"]}>
