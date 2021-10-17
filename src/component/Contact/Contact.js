@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './contact.module.css';
+import Image from '../../assets/paul.png';
 
 const Contact = () => {
     return (
@@ -7,13 +8,17 @@ const Contact = () => {
             
         <h1> Contact </h1>
 
-        <div >
+            <div className={styles["contact-content"]} >
 
-        </div>
+                <div className={styles["profile"]}>
+                  <img className="" src= { Image } alt="profile" />
+                </div>
 
-        <div>
-
-        </div>
+                <div >
+                    <h3> Form</h3>
+                </div>
+            </div>
+        
     </div>
     )
 }

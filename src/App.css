@@ -14,6 +14,12 @@ h2{
     font-family: Aclonica; 
 }
 
+h3{
+    font-size: 1.5em;
+    font-family: Noticia;
+
+}
+
 p{
     font-family: Noticia;
     line-height: 1.5em;

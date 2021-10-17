@@ -4,6 +4,7 @@
     width: 95vw;
     margin: 2em;
     display: flex;
+    flex-direction: column;
     padding: 1.5em;  
 
 }
@@ -11,4 +12,21 @@
 .contact-container h1{
     font-size: 3.5em;
     font-family: Aclonica;
+}
+
+.contact-content{
+    display: flex;
+    margin: 2em 0;
+}
+
+.profile{
+    padding: 3em 0 3em 4em;
+    width: 35%;
+}
+
+.profile img{
+    border-radius: 50%;
+    border: 1px solid #505050;
+    height: 75%;
+    width: 80%;
 }

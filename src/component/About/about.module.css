@@ -1,10 +1,9 @@
 .about-container{
-    
-    height: 100vh;
     width: 95vw;
     margin: 2em;
     display: flex;
-    padding: 1.5em;  
+    padding: 1.5em;
+    flex-direction: column; 
 
 }
 
@@ -12,3 +11,38 @@
     font-size: 3.5em;
     font-family: Aclonica;
 }
+
+.about-content{
+    display: flex;
+    margin: 2em 0;
+  
+}
+
+.profile{
+    padding: 3em 0 3em 4em;
+    width: 35%;
+}
+
+.profile img{
+    border-radius: 50%;
+    border: 1px solid #505050;
+    height: 75%;
+    width: 80%;
+}
+
+.text{
+    width: 65%;
+    
+}
+
+.text p{
+    font-size: 1.3em;
+    font-family: Noticia;
+    line-height: 1.5em;
+    color: #505050;
+}
+
+.text-div{
+    margin: 3em 0;
+}
+

@@ -1,24 +1,30 @@
 import React from 'react';
 import styles from './navbar.module.css';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
+
+
     return (
-        <div className={styles["nav-container"]}>
+        <motion.div className={styles["nav-container"]}>
 
-            <div className={styles["logo"]}>
+            <motion.div className={styles["logo"]}
+            
+            >
                 <p> PAUL KENO </p>
-            </div>
+            </motion.div>
 
-            <div className={styles["nav-links"]} >
+            <motion.div className={styles["nav-links"]} >
                 <ul >
                     <li> Work </li>
                     <li> Resume</li>
                     <li> About </li>
                     <li> Contact </li>
+                    
                 </ul>
 
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
 

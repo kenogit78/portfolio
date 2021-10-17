@@ -98,6 +98,10 @@ const Resume = () => {
 
             </section>
 
+            <div className={styles["download-resume"]} >
+                <h2> Download Resume</h2>
+            </div>
+
 
 
         </div>
