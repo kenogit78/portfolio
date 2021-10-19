@@ -79,11 +79,24 @@
 
 @media screen and (max-width:528px){
     .text h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .homepage-container{
         margin: 0;
         padding: 2em;
     }
+    .profile img{
+        border-radius: 50%;
+        border: 3px solid #505050;
+        height: 90%;
+        width: 100%;
+    }
+    .profile{
+        
+            padding: 3em;
+            
+        
+    }
+    
 }
 
