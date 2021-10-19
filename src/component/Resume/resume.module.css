@@ -58,14 +58,17 @@
 
 
 @media screen and (max-width:1028px){
-   
+    .resume-container{
+        margin: 1em;
+        padding: 1em;
+    }
     .div-section{
-        width: 100%;
+        width: 90%;
         
     }
     .sub-div{
         margin-bottom: 1.5em;
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -73,6 +76,10 @@
 @media screen and (max-width:869px){
     .resume-section{
         flex-direction: column;  
+    }
+    .resume-container{
+        margin: 0;
+        padding: 2em;
     }
 }
 

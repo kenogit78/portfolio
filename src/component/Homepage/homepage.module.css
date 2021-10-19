@@ -1,8 +1,8 @@
 .home-container{
-    width: 95vw;
-    margin: 2em;
+    width: 90vw;
+    margin: 1em;
     display: flex;
-    padding: 1.5em;  
+    padding: 1em;  
 }
 
 .profile{
@@ -44,15 +44,13 @@
 @media screen and (max-width:1028px){
     .home-container{
         flex-direction: column; 
-        margin: 1em; 
-        padding: 1em;  
     }
     .text h1{
         font-size: 4.5em;
     }
     .text{
         width: 90%;
-        padding: 0 0 0 3em;
+    
     }
     .profile{
         padding: 4em;
@@ -75,13 +73,17 @@
     }
     .text{
         width: 90%;
-        padding: 0 0 0 3em;
+        
     }
 }
 
 @media screen and (max-width:528px){
     .text h1{
         font-size: 3em;
+    }
+    .homepage-container{
+        margin: 0;
+        padding: 2em;
     }
 }
 
