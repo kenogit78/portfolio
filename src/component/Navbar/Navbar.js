@@ -14,7 +14,11 @@ const Navbar = () => {
                 <p> PAUL KENO </p>
             </motion.div>
 
-            <motion.div className={styles["nav-links"]} >
+            <motion.div className={styles["nav-links"]} 
+            initial={{opacity: 0}}
+            animate ={{opacity:1}}
+            transition={{delay:1.5, duration: 1.5}}
+            >
                 <ul >
                     <li> Work </li>
                     <li> Resume</li>

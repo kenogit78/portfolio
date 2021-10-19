@@ -46,3 +46,35 @@
     margin: 3em 0;
 }
 
+.text-div h3{
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.text-div span{
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+
+@media screen and (max-width:1028px){
+   
+    .about-content{
+        flex-direction: column;
+        
+    }
+
+    .text{
+        width: 90%;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:869px){
+    
+}
+

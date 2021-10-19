@@ -1,36 +1,32 @@
 .resume-container{
-    
-    
     width: 95vw;
     margin: 2em;
     display: flex;
     flex-direction: column;
-    padding: 1.5em;  
-
+    padding: 1.5em;
 }
 
 .resume-container h1{
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 .div-section h2{
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 .resume-section{
-    display: flex;
-    
+    display: flex;  
 }
 
 .div-section{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .sub-div{
     margin-bottom: 1.5em;
-    width: 50%;
+    width: 100%;
 }
 
 .sub-div p{
@@ -43,7 +39,40 @@
     width: 100%;
 }
 
-.download-resume{
+.download-resume button{
     border: 3px solid;
-    border-radius: 10px;
+    border-radius: 8px;
+    padding: 0.7em;
+    font-size: 1.8em;
+    background: #fff;
+    font-family: Noticia; 
+    font-weight: bold;
+    cursor: pointer;
+
 }
+
+.sub-div a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+@media screen and (max-width:1028px){
+   
+    .div-section{
+        width: 100%;
+        
+    }
+    .sub-div{
+        margin-bottom: 1.5em;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:869px){
+    .resume-section{
+        flex-direction: column;  
+    }
+}
+

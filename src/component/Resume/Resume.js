@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './resume.module.css';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const Resume = () => {
     return (
@@ -13,14 +14,14 @@ const Resume = () => {
                     <h2> Work Experience </h2>
 
                     <div className={styles["sub-div"]} >
-                        <h3> HNGi8 Internship</h3>
+                      <a href="https://hng.tech/">  <h3> HNGi8 Internship <FaExternalLinkAlt /> </h3> </a> 
                         <br />
                         <p> Frontend Developer </p>
-                        <p> August 2021 - current </p>
+                        <p> August 2021 - October 2021 </p>
                     </div>
 
                     <div className={styles["sub-div"]}>
-                        <h3> Google Africa Developer internship </h3>
+                        <a href="https://gads.andela.com/"> <h3> Google Africa Developer Program <FaExternalLinkAlt /> </h3> </a>
                         <br />
                         <p> Frontend Developer </p>
                         <p> July 2021 - current </p>
@@ -31,7 +32,7 @@ const Resume = () => {
                 <div className={styles["div-section"]}>
                     <h2> Education </h2>
                     <div className={styles["sub-div"]} >
-                        <h3> University of Benin</h3>
+                        <a href="https://uniben.edu.ng/"><h3> University of Benin <FaExternalLinkAlt /></h3></a>
                         <br />
                         <p>  B.ENG Electrical/Electronics Engineering </p>
                         <p> 2012 -2017 </p>
@@ -48,7 +49,7 @@ const Resume = () => {
 
 
             <section className={styles["resume-section"]}>
-
+                    
                 <div className={styles["div-section"]}>
                     <h2> Skills </h2>
 
@@ -81,25 +82,28 @@ const Resume = () => {
 
                 <div className={styles["div-section"]}>
                      <h2> Online Courses </h2>
+
                      <div className={styles["sub-div"]} >
-                        <h3> Codecademy</h3>
+                        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><h3> Udemy <FaExternalLinkAlt /> </h3> </a>
+                        <br />
+                        <p>  The Complete Web Development Bootcamp </p>
+                        <p> 2021 </p>
+                    </div>
+
+                     <div className={styles["sub-div"]} >
+                       <a href="https://www.codecademy.com/learn/introduction-to-javascript"> <h3> Codecademy <FaExternalLinkAlt /></h3> </a>
                         <br />
                         <p>  Certified JavaScript Web Developer </p>
                         <p> 2021 </p>
                     </div>
 
-                     <div className={styles["sub-div"]} >
-                        <h3> Udemy </h3>
-                        <br />
-                        <p>  The Complete Web Development Bootcamp </p>
-                        <p> 2021 </p>
-                    </div>
+                  
                 </div>
 
             </section>
 
             <div className={styles["download-resume"]} >
-                <h2> Download Resume</h2>
+                <button>Download Resume</button> 
             </div>
 
 

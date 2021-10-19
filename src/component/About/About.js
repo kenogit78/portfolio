@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
-import Image from '../../assets/paul.png';
+import Image from '../../assets/keno.png';
 
 const About = () => {
     return (
@@ -14,28 +14,37 @@ const About = () => {
 
                     <div className={styles["text-div"]}>
                         <h3> Who am I?</h3>
-                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Suscipit eos facere molestiae tempore cum quisquam id molestias fugiat praesentium 
-                            reiciendis aspernatur possimus saepe,
-                            blanditiis explicabo quia sequi vitae quo iste.</p>
+                        <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
+                            </p>
 
                     </div>
 
                     <div className={styles["text-div"]}>
                         <h3> What do I do?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vel, aliquam necessitatibus iste harum commodi nobis, debitis 
-                            repudiandae beatae voluptatibus omnis asperiores atque consequatur 
-                            iusto porro laborum ex quo officiis temporibus.</p>
+                        <p>
+                            I combine research, user flows, storytelling and creativity to transform basic ideas into interesting solutions. I understand user demands and build solutions to effectively meet them.
+                            </p>
 
                     </div>
 
                     <div className={styles["text-div"]}>
                         <h3> Who am I passionate about?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Soluta debitis praesentium velit ad ratione quisquam modi 
-                            tempora mollitia eum cum architecto, culpa et ea ipsum odio 
-                            vero animi repudiandae adipisci!</p>
+                        <p>
+                            As a creative developer, I derive pleasure in translating ideas into tangible results.
+                            </p>
+
+                        
+                        <br />
+                        <p>
+                            I am extremely passionate about creating beautiful experience on the web. Building unique products that creates amazing user experiences.
+                        </p>
+
+                        
+                            <br />
+                        <p>
+                            Most importantly, I enjoy working with creative minds and diverse people to create amazing things together.
+                            
+                            </p>
 
                     </div>
 
