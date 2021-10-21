@@ -1,6 +1,10 @@
+.container{
+    padding-left: 2em;
+}
+
 .home-container{
     width: 90vw;
-    margin: 1em;
+    margin: 2em;
     display: flex;
     padding: 1em;  
 }
@@ -16,7 +20,7 @@
 
 .text h1{
     font-size: 5.5em;
-    font-family: Aclonica;
+    font-family: Lato;
     margin-bottom: 0.2em;
 }
 
@@ -26,7 +30,7 @@
 
 .text p{
     font-size: 1.5em;
-    font-family: Noticia;
+    font-family: Lato;
     line-height: 1.5em;
     color: #505050;
 }
@@ -42,8 +46,11 @@
 
 
 @media screen and (max-width:1028px){
+    
     .home-container{
         flex-direction: column; 
+        margin: 1em;
+        padding: 1em;
     }
     .text h1{
         font-size: 4.5em;
@@ -71,31 +78,38 @@
     .text h1{
         font-size: 3.5em;
     }
-    .text{
-        width: 90%;
-        
-    }
-}
 
-@media screen and (max-width:528px){
-    .text h1{
-        font-size: 2.5em;
+    .container{
+        padding-left: 0;
+    }
+    .text{
+        width: 100%;
+        
     }
     .homepage-container{
         margin: 0;
         padding: 2em;
     }
+}
+
+@media screen and (max-width:528px){
+    .text h1{
+        font-size: 3em;
+    }
+    
     .profile img{
         border-radius: 50%;
         border: 3px solid #505050;
         height: 90%;
         width: 100%;
+       
     }
     .profile{
-        
-            padding: 3em;
-            
-        
+            padding: 3em; 
+    }
+    .text p{
+        font-size: 1.2em;
+        line-height: 1.34m;
     }
     
 }

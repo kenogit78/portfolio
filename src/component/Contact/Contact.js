@@ -4,7 +4,7 @@ import Image from '../../assets/keno.png';
 
 const Contact = () => {
     return (
-        <div className={styles["contact-container"]} >
+        <div className={styles["contact"]} id="contact" >
             
         <h1> Contact </h1>
 

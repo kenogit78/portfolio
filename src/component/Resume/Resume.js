@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const Resume = () => {
     return (
-        <div className={styles["resume-container"]} >
+        <div className={styles['resume']} id='resume' >
             
             <h1> Resume </h1>
 

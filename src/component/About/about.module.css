@@ -2,14 +2,15 @@
     width: 95vw;
     margin: 1em;
     display: flex;
-    padding: 1em;
+    padding: 2em;
     flex-direction: column; 
+    
 
 }
 
 .about-container h1{
     font-size: 3.5em;
-    font-family: Aclonica;
+    font-family: Lato;
 }
 
 .about-content{
@@ -37,7 +38,7 @@
 
 .text p{
     font-size: 1.3em;
-    font-family: Noticia;
+    font-family: Lato;
     line-height: 1.5em;
     color: #505050;
 }
@@ -67,7 +68,7 @@
     }
 
     .text{
-        width: 90%;
+        width: 100%;
         
     }
     

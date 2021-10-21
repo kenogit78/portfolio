@@ -4,7 +4,7 @@ import Image from '../../assets/keno.png';
 
 const About = () => {
     return (
-        <div className={styles["about-container"]} >
+        <div className={styles["about-container"]} id='about' >
             
             <h1> About </h1>
 
@@ -14,7 +14,7 @@ const About = () => {
 
                     <div className={styles["text-div"]}>
                         <h3> Who am I?</h3>
-                        <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
+                        <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer based in Ibadan, Nigeria. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
                             </p>
 
                     </div>
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
 
                     <div className={styles["text-div"]}>
-                        <h3> Who am I passionate about?</h3>
+                        <h3> What am I passionate about?</h3>
                         <p>
                             As a creative developer, I derive pleasure in translating ideas into tangible results.
                             </p>
@@ -36,7 +36,7 @@ const About = () => {
                         
                         <br />
                         <p>
-                            I am extremely passionate about creating beautiful experience on the web. Building unique products that creates amazing user experiences.
+                            I am extremely passionate about creating beautiful experience on the web, building unique products that creates amazing user experiences.
                         </p>
 
                         

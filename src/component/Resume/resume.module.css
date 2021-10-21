@@ -1,12 +1,12 @@
-.resume-container{
+.resume{
     width: 95vw;
-    margin: 2em;
+    margin: 1em;
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
+    padding: 2em;
 }
 
-.resume-container h1{
+.resume h1{
     margin: 0.5em 0;
 }
 
@@ -56,9 +56,14 @@
     color: #333;
 }
 
+.sub-div h3{
+    color: #333;
+}
+
+
 
 @media screen and (max-width:1028px){
-    .resume-container{
+    .resume{
         margin: 1em;
         padding: 1em;
     }
@@ -77,7 +82,7 @@
     .resume-section{
         flex-direction: column;  
     }
-    .resume-container{
+    .resume{
         margin: 0;
         padding: 2em;
     }

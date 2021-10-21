@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 const Homepage = () => {
     return (
-        <div>
+        <div className={styles["container"]}>
             <div className={styles["home-container"]}>
 
                 <div className={styles["text"]} >
