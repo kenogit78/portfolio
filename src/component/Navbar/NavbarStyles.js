@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import {Link as LinkS } from 'react-scroll'
 import {FaTimes} from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 // import { Link as LinkR } from 'react-router-dom'
 
 
@@ -13,6 +14,7 @@ justify-content: space-between;
 align-items: center;
 margin: 2em 0;
 padding: 2em;
+
 
 @media screen and (max-width: 768px){
     padding: 1em;
@@ -33,7 +35,17 @@ cursor: pointer;
 @media screen and (max-width: 768px){
     margin-left: 0.5em;
 }
+
+&:hover{
+    color: #FF9300;
+    transition: 0.7s ease-in-out;
+}
 `
+
+export const FaIcon = styled(FaBars)`
+    color: #FF0000;
+
+ `
 
 export const MobileIcon = styled.div`
     display: none;
@@ -43,6 +55,7 @@ export const MobileIcon = styled.div`
         margin-right: 1em;
         font-size: 1.8em;
         cursor: pointer;
+        color: #FF0000
 
     }
 `
@@ -75,8 +88,9 @@ export const NavLinks = styled(LinkS)`
     font-size: 1.1em;
     cursor: pointer;
 
-    &.active{
-        border-bottom: 2px solid #000;
+    &:hover{
+        border-bottom: 2px solid #FF9300;
+        transition: 0.7s ease-in-out;
     }
 `
 
@@ -98,7 +112,8 @@ export const SidebarContainer = styled.aside`
 `
 
  export const CloseIcon = styled(FaTimes)`
-    color: #fff;
+    color: #FF0000;
+
  `
 
  export const Icon = styled.div`
@@ -140,7 +155,7 @@ export const SidebarContainer = styled.aside`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #FF9300;
         transition: 0.2s ease-in-out;
     }
  `

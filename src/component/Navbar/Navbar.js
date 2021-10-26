@@ -2,13 +2,14 @@ import React from 'react';
 // import styles from './navbar.module.css';
 // import { motion } from 'framer-motion';
 import { BiMessageDots } from "react-icons/bi";
-import { FaBars } from "react-icons/fa";
+
 import { 
     NavContainer, 
     NavLogo, 
     MobileIcon, 
     NavMenu, 
-    NavItem, 
+    NavItem,
+    FaIcon, 
     NavLinks 
 } from './NavbarStyles';
 
@@ -25,7 +26,7 @@ const Navbar = ( { toggle } ) => {
 
              <NavLogo to='contact'>  <BiMessageDots /> hi@keno </NavLogo>
                 <MobileIcon onClick={toggle}>
-                    <FaBars />
+                    <FaIcon />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>

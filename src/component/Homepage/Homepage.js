@@ -19,7 +19,7 @@ const Homepage = () => {
                     animate ={{opacity:1, y:0}}
                     transition={{ duration: 1}}
                     > 
-                        Hi, I'm Keno,
+                        Hi, I'm <span>Keno,</span> 
                     </motion.h1>
                     
                    
@@ -54,7 +54,9 @@ const Homepage = () => {
                 animate ={{opacity:1, scale: 1 }}
                 transition={{ delay: 2, duration: 2}}
                 >
+                    {/* <div className={styles["profile-box"]} >   */}
                   <img className="" src= { Image } alt="profile" />
+                  {/* </div> */}
                 </motion.div>
 
                 
