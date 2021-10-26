@@ -1,12 +1,19 @@
 .container{
+    margin-top: 2em;
     padding-left: 2em;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
 }
 
 .home-container{
+    margin-top: 4em;
     width: 90vw;
     margin: 2em;
     display: flex;
     padding: 1em;  
+    scroll-snap-align: start;
 }
 
 .profile{

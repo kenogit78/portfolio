@@ -14,8 +14,26 @@ const Contact = () => {
                   <img className="" src= { Image } alt="profile" />
                 </div>
 
-                <div >
-                    <h3> Form</h3>
+                <div className={styles["form-content"]} >
+                    <h3> Want to connect with me?</h3>
+                    <h3> Drop a message here?</h3>
+                  
+
+                    
+                    <form action="">
+                        <input type="text"
+                        placeholder='Your Name'
+                        />
+                        <input type="text"
+                        placeholder='Your Email'
+                        />
+                       <textarea name="" id="" cols="30" rows="10"
+                       placeholder="Your message"></textarea>
+
+
+                         <button>Send</button> 
+         
+                    </form>
                 </div>
             </div>
         

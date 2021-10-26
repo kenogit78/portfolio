@@ -12,8 +12,8 @@ height:80px;
 z-index:1;
 justify-content: space-between;
 align-items: center;
-margin: 2em 0;
 padding: 2em;
+box-shadow: -8px 2px 16px 2px rgba(255,118,21,0.43);
 
 
 @media screen and (max-width: 768px){
@@ -89,8 +89,8 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &:hover{
-        border-bottom: 2px solid #FF9300;
-        transition: 0.7s ease-in-out;
+        color: #FF0000;
+        transition: 0.4s ease-in-out;
     }
 `
 
