@@ -106,9 +106,15 @@
 
 .box:hover{
     cursor: pointer;
-    background: #ff0000;
+    background: #fff;
+    border: 2px solid #1597E5;
+    color: #1597E5;
+}
+
+.box h3:hover{
+  
     
-    color: #fff9f9;
+    color: #1597E5;
 }
 
 
@@ -204,9 +210,7 @@
         font-size: 3em;
     }
 
-    .text p{
-        font-size: 3em;
-    }
+    
     
     .profile img{
         border-radius: 50%;

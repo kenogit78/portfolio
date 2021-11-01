@@ -11,9 +11,9 @@ const Work = () => {
         <section className={styles["work-section"]}>
 
             <div className={styles["work-content"]}>
-                <h2>
+                <h1>
                     Kelo App
-                </h2>
+                </h1>
                 <p> Full Stack Build </p>
 
                 <div className={styles["kelo"]}>

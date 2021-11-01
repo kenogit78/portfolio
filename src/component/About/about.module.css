@@ -19,16 +19,17 @@
 }
 
 .profile{
-    padding: 3em 0 3em 4em;
-    width: 35%;
+    padding: 4em;
+    width: 100%;
 }
-
 .profile img{
     border-radius: 50%;
-    border: 1px solid #505050;
+    border: 3px solid #505050;
     height: 75%;
-    width: 80%;
+    width: 90%;
+    text-align: center;
 }
+
 
 .text{
     width: 65%;
@@ -79,5 +80,22 @@
         margin: 0em;
         padding: 2em;
     }
+
+    
+.text p{
+    font-size: 1em;
+   
+}
+.profile img{
+    border-radius: 50%;
+    border: 3px solid #505050;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+   
+}
+.profile{
+        padding: 3em; 
+}
 }
 

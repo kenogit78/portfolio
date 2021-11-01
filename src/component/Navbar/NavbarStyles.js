@@ -37,13 +37,13 @@ cursor: pointer;
 }
 
 &:hover{
-    color: #FF9300;
+    color: #1597E5;
     transition: 0.7s ease-in-out;
 }
 `
 
 export const FaIcon = styled(FaBars)`
-    color: #FF0000;
+    color: #1597E5;
 
  `
 
@@ -55,7 +55,7 @@ export const MobileIcon = styled.div`
         margin-right: 1em;
         font-size: 1.8em;
         cursor: pointer;
-        color: #FF0000
+        color: #1597E5
 
     }
 `
@@ -89,7 +89,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &:hover{
-        color: #FF0000;
+        color: #1597E5;
         transition: 0.4s ease-in-out;
     }
 `
@@ -112,7 +112,7 @@ export const SidebarContainer = styled.aside`
 `
 
  export const CloseIcon = styled(FaTimes)`
-    color: #FF0000;
+    color: #1597E5;
 
  `
 
@@ -155,7 +155,7 @@ export const SidebarContainer = styled.aside`
     cursor: pointer;
 
     &:hover {
-        color: #FF9300;
+        color: #1597E5;
         transition: 0.2s ease-in-out;
     }
  `
