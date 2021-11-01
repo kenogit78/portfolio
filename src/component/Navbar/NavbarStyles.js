@@ -13,7 +13,7 @@ z-index:1;
 justify-content: space-between;
 align-items: center;
 padding: 2em;
-box-shadow: -8px 2px 16px 2px rgba(255,0,0,0.5);
+box-shadow: -8px 2px 16px 2px rgba(149, 216, 255, 0.5);
 
 
 @media screen and (max-width: 768px){

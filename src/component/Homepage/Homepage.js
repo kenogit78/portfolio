@@ -2,7 +2,7 @@ import React from 'react';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Resume from '../Resume/Resume';
-// import Work from '../Work/Work';
+import Work from '../Work/Work';
 import styles from './homepage.module.css';
 import Image from '../../assets/keno.png';
 import Footer from '../Footer/Footer';
@@ -71,7 +71,7 @@ const Homepage = () => {
                 
             </div>
 
-            {/* <Work /> */}
+            <Work />
             <Resume />
             <About />
             <Contact />

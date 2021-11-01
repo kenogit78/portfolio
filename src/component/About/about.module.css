@@ -1,6 +1,6 @@
 .about-container{
     width: 95vw;
-    /* margin: 1em; */
+    margin: 1em;
     display: flex;
     padding: 1em;
     flex-direction: column; 

@@ -6,12 +6,14 @@
 
 body{
     scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1{
     font-size: 4em;
     font-family: Lato;
-    color: #193498;
+    color: #1597E5;
 }
 
 h2{
@@ -29,6 +31,25 @@ p{
     font-family: Lato;
     line-height: 1.5em;
     color: #505050;
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 3em;
+        font-family: Lato;
+        color: #1597E5;
+    }
+    
+    h2{
+        font-size: 1.5em;
+        font-family: Lato; 
+    }
+    
+    h3{
+        font-size: 1.2em;
+        font-family: Lato;
+    
+    }
 }
 
 

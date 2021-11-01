@@ -1,6 +1,6 @@
 .contact{
     width: 95vw;
-    /* margin: 1em; */
+    margin: 1em;
     display: flex;
     flex-direction: column;
     padding: 1em;  
@@ -79,36 +79,21 @@ form button{
     position: relative;
     width: 200px;
     height: 60px;
-    background: #a0a0a0;
+    background: #1597E5;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1em;
     overflow: hidden;
     border-radius: 3px;
+    animation: animate 2s linear infinite;
 }
 
-.box::before{
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 400%;
-    background: linear-gradient(#193498, #fff9f9);
-    animation: animate 2.5s linear infinite;
-   
-}
 
-.box::after{
-    content: "";
-    position: absolute;
-    background: #fff9f9;
-    inset: 2px;
-   
-}
 
 .box:hover{
     cursor: pointer;
-    background: #193498;
+    background: #ff0000;
     
     color: #fff9f9;
 }
@@ -116,22 +101,28 @@ form button{
 
 @keyframes animate {
     0%{
-        transform: rotate(0deg);
+        transform: scale(0.8);
     }
+    50%{
+        transform: scale(1);
+    }
+
+
     100%{
-        transform: rotate(360deg);
+        transform: scale(0.8);
     }
 }
+
+
+
 
 .box h3{
     font-size: 1.2em;
-    color: #333;
+    color: #fff;
     z-index: 10;
 }
 
-.box h3:hover{
-    color: #193498;
-}
+
 
 
 @media screen and (max-width:528px){

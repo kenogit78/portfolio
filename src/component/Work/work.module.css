@@ -2,11 +2,58 @@
     width: 95vw;
     margin: 1em;
     display: flex;
-    padding: 2em;  
+    padding: 2em; 
+    display: flex;
+    flex-direction: column; 
 
 }
 
 .work-container h1{
     font-size: 3.5em;
-    font-family: Aclonica;
+    font-family: Lato;
+    margin: 0.5em 0;
+}
+
+.work-section{
+    display: flex;
+}
+
+.work-content{
+    border: 5px solid #333;
+    border-radius: 20px;
+    height: 100vh;
+    width: 50%;
+    margin: 1.5em;
+    padding: 2em;
+}
+
+.work-content h2{
+    font-size: 3em;
+    color: #1597E5;
+}
+
+.work-content p{
+    font-size: 1.2em;
+    font-style: italic;
+   margin-top: 0.5em;
+}
+
+.kelo{
+    width: 100%;
+}
+
+.kelo img{
+    width: 100%;
+    height: 380px;
+}
+
+@media screen and (max-width: 768px){
+    .work-section{
+        flex-direction: column;
+    }
+
+    .work-content{
+        width: 100%;
+        
+    }
 }
