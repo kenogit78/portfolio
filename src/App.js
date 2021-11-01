@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+// import Footer from "./component/Footer/Footer";
 import Homepage from "./component/Homepage/Homepage";
 import Navbar from './component/Navbar/Navbar';
 import Sidebar from "./component/Navbar/Sidebar";
@@ -14,6 +17,7 @@ function App() {
     setIsOpen(!isOpen)
   }
 
+  Aos.init();
   return (
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}  />
@@ -23,15 +27,11 @@ function App() {
         <Route exact path="/" component={Homepage} />
 
         <Route exact path="/work" component={Work} />
-        
-
-
-
-
+       
       </Switch>
 
       
-
+     
 
       </Router>
 

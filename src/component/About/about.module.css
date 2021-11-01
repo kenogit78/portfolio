@@ -4,7 +4,6 @@
     display: flex;
     padding: 2em;
     flex-direction: column; 
-    scroll-snap-align: start;
    
 }
 
@@ -15,7 +14,7 @@
 
 .about-content{
     display: flex;
-    margin: 2em 0;
+    
   
 }
 
@@ -44,12 +43,12 @@
 }
 
 .text-div{
-    margin: 3em 0;
+    margin: 1.5em 0;
 }
 
 .text-div h3{
     font-size: 1.8em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 .text-div span{

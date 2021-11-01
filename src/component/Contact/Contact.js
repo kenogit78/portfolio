@@ -4,9 +4,15 @@ import Image from '../../assets/keno.png';
 
 const Contact = () => {
     return (
-        <div className={styles["contact"]} id="contact" >
+        <div 
+        
+        className={styles["contact"]} id="contact" >
             
-        <h1> Contact </h1>
+        <h1
+        data-aos="zoom-out-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        > Contact </h1>
 
             <div className={styles["contact-content"]} >
 
@@ -14,7 +20,11 @@ const Contact = () => {
                   <img className="" src= { Image } alt="profile" />
                 </div>
 
-                <div className={styles["form-content"]} >
+                <div 
+                data-aos="zoom-out-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                className={styles["form-content"]} >
                     <h3> Want to connect with me?</h3>
                     <h3> Drop a message here?</h3>
                   

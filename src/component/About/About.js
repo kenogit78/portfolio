@@ -6,20 +6,32 @@ const About = () => {
     return (
         <div className={styles["about-container"]} id='about' >
             
-            <h1> About </h1>
+            <h1
+            data-aos="zoom-out-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            > About </h1>
 
             <div className={styles["about-content"]}>
 
                 <section className={styles["text"]}>
 
-                    <div className={styles["text-div"]}>
+                    <div
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className={styles["text-div"]}>
                         <h3> Who am I?</h3>
                         <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer based in Ibadan, Nigeria. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
                             </p>
 
                     </div>
 
-                    <div className={styles["text-div"]}>
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
+                    className={styles["text-div"]}>
                         <h3> What do I do?</h3>
                         <p>
                             I combine research, user flows, storytelling and creativity to transform basic ideas into interesting solutions. I understand user demands and build solutions to effectively meet them.
@@ -27,7 +39,11 @@ const About = () => {
 
                     </div>
 
-                    <div className={styles["text-div"]}>
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
+                    className={styles["text-div"]}>
                         <h3> What am I passionate about?</h3>
                         <p>
                             As a creative developer, I derive pleasure in translating ideas into tangible results.

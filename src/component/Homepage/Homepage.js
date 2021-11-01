@@ -7,10 +7,12 @@ import styles from './homepage.module.css';
 import Image from '../../assets/keno.png';
 import Footer from '../Footer/Footer';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 const Homepage = () => {
     return (
         <div className={styles["container"]}>
+            <div className={styles["small-container"]}>
             <div className={styles["home-container"]}>
 
                 <div className={styles["text"]} >
@@ -45,19 +47,23 @@ const Homepage = () => {
                     transition={{ delay: 1.5, duration: 1}}
                     > I believe in creating products that have relevance in our present world.
                     </motion.p>
-
+                    <Link to="about">
+                    <div className={styles["box"]} >
+                       <h3>Wanna Know More?  </h3>  
+                  </div>
+                  </Link>
                    
                 </div>
                     
-                <motion.div className={styles["profile"]}
-                initial={{opacity: 0, scale: 0}}
-                animate ={{opacity:1, scale: 1 }}
-                transition={{ delay: 2, duration: 2}}
-                >
-                    {/* <div className={styles["profile-box"]} >   */}
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    className={styles["profile"]}
+                    >
+                    {/* <div className={styles["profile-box"]} >  </div> */}
                   <img className="" src= { Image } alt="profile" />
-                  {/* </div> */}
-                </motion.div>
+                  
+                </div>
 
                 
 
@@ -65,16 +71,13 @@ const Homepage = () => {
                 
             </div>
 
-
-
-
-
-
             {/* <Work /> */}
             <Resume />
             <About />
             <Contact />
+            </div>
             <Footer />
+            
         </div>
     )
 }
