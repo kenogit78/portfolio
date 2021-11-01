@@ -127,9 +127,9 @@ const Resume = () => {
 
             </section>
 
-            <div className={styles["download-resume"]} >
-                <button>Download Resume</button> 
-            </div>
+            <div className={styles["box"]} >
+                       <h3>Download Resume  </h3>  
+                  </div>
 
 
 

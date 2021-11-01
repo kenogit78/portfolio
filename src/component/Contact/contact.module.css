@@ -1,10 +1,10 @@
 .contact{
     width: 95vw;
-    margin: 1em;
+    /* margin: 1em; */
     display: flex;
     flex-direction: column;
-    padding: 2em;  
-    background: #fff9f9;
+    padding: 1em;  
+    background: rgba(149, 216, 255, 0.05);
 
 }
 
@@ -75,7 +75,63 @@ form button{
     cursor: pointer;
     width: 80%;
 }
+.box{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    overflow: hidden;
+    border-radius: 3px;
+}
 
+.box::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 400%;
+    background: linear-gradient(#193498, #fff9f9);
+    animation: animate 2.5s linear infinite;
+   
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    background: #fff9f9;
+    inset: 2px;
+   
+}
+
+.box:hover{
+    cursor: pointer;
+    background: #193498;
+    
+    color: #fff9f9;
+}
+
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box h3{
+    font-size: 1.2em;
+    color: #333;
+    z-index: 10;
+}
+
+.box h3:hover{
+    color: #193498;
+}
 
 
 @media screen and (max-width:528px){
