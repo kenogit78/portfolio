@@ -3,8 +3,7 @@
     margin: 1em;
     display: flex;
     padding: 1em;
-    flex-direction: column; 
-   
+    flex-direction: column;
 }
 
 .about-container h1{
@@ -14,26 +13,28 @@
 
 .about-content{
     display: flex;
-    
-  
 }
 
 .profile{
-    padding: 4em;
-    width: 100%;
-}
-.profile img{
-    border-radius: 50%;
-    border: 3px solid #505050;
-    height: 75%;
-    width: 90%;
+    padding: 2em 0 3em 4em;
+    width: 40%;
     text-align: center;
 }
 
+.profile img{
+    border-radius: 0.4em;
+    background-color: #fff;
+    border: 3px solid #fff;
+    box-shadow: -8px 2px 16px 2px rgba(149, 216, 255, 0.5);
+    height: 90%;
+    width: 85%;
+    z-index: 10;
+    margin-top: 2em;
+    animation: twist 30s linear infinite;
+}
 
 .text{
-    width: 65%;
-    
+    width: 65%;  
 }
 
 .text p{
@@ -63,15 +64,12 @@
 @media screen and (max-width:1028px){
    
     .about-content{
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
 
     .text{
         width: 100%;
-        
-    }
-    
+    }  
 }
 
 
@@ -92,10 +90,12 @@
     height: 90%;
     width: 100%;
     text-align: center;
+    
    
 }
 .profile{
         padding: 3em; 
+        width: 100%;
 }
 }
 

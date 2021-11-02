@@ -49,7 +49,7 @@ const Homepage = () => {
                     </motion.p>
                     <Link to="about">
                     <div className={styles["box"]} >
-                       <h3>Wanna Know More?  </h3>  
+                       <h3> Know More  </h3>  
                   </div>
                   </Link>
                    

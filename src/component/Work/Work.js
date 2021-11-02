@@ -6,7 +6,7 @@ const Work = () => {
     return (
         <div className={styles["work-container"]} id='work' >
             
-            <h1> Selected Works </h1>
+            <h1> Projects </h1>
 
         <section className={styles["work-section"]}>
 

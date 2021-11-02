@@ -84,6 +84,8 @@
     overflow: hidden;
     border-radius: 3px;
     animation: animate 2s linear infinite;
+    color: #fff;
+   
 }
 
 /* .box::before{
@@ -117,7 +119,7 @@
     color: #1597E5;
 }
 
-
+/* 
 @keyframes animate {
     0%{
         transform: scale(0.8);
@@ -130,7 +132,7 @@
     100%{
         transform: scale(0.8);
     }
-}
+} */
 @keyframes twist {
     0%{
         transform: rotate(-5deg);
@@ -149,6 +151,7 @@
     font-size: 1.2em;
     color: #fff;
     z-index: 10;
+    padding-right: 0.3em;
 }
 
 
