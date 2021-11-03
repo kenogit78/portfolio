@@ -6,7 +6,7 @@ import Work from '../Work/Work';
 import styles from './homepage.module.css';
 import Image from '../../assets/keno.png';
 import Footer from '../Footer/Footer';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 
 const Homepage = () => {
@@ -16,39 +16,54 @@ const Homepage = () => {
             <div className={styles["home-container"]}>
 
                 <div className={styles["text"]} >
-                    <motion.h1
-                    initial={{opacity: 0, y:30}}
-                    animate ={{opacity:1, y:0}}
-                    transition={{ duration: 1}}
+                    <h1
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    // initial={{opacity: 0, y:30}}
+                    // animate ={{opacity:1, y:0}}
+                    // transition={{ duration: 1}}
                     > 
                         Hi, I'm <span>Keno,</span> 
-                    </motion.h1>
+                    </h1>
                     
                    
                     
-                    <motion.p
-                    initial={{opacity: 0, y:30}}
-                    animate ={{opacity:1, y:0}}
-                    transition={{ delay: 1, duration: 1}}
+                    <p
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    // initial={{opacity: 0, y:30}}
+                    // animate ={{opacity:1, y:0}}
+                    // transition={{ delay: 1, duration: 1}}
                     > a <span> Web Developer.</span>
-                    </motion.p>
+                    </p>
                     <br />
                   
-                    <motion.p
-                    initial={{opacity: 0, y:30}}
-                    animate ={{opacity:1, y:0}}
-                    transition={{ delay: 1.3, duration: 1}}
-                    > I specialize in providing Web solutions by writing clean codes for Websites & Web applications. </motion.p>
+                    <p
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    // initial={{opacity: 0, y:30}}
+                    // animate ={{opacity:1, y:0}}
+                    // transition={{ delay: 1.3, duration: 1}}
+                    > I specialize in providing Web solutions by writing clean codes for Websites & Web applications. </p>
                     <br />
                   
-                    <motion.p
-                    initial={{opacity: 0, y:30}}
-                    animate ={{opacity:1, y:0}}
-                    transition={{ delay: 1.5, duration: 1}}
+                    <p
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
+                    // initial={{opacity: 0, y:30}}
+                    // animate ={{opacity:1, y:0}}
+                    // transition={{ delay: 1.5, duration: 1}}
                     > I believe in creating products that have relevance in our present world.
-                    </motion.p>
+                    </p>
                     <Link to="about">
-                    <div className={styles["box"]} >
+                    <div className={styles["box"]}
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500" >
                        <h3> Know More  </h3>  
                   </div>
                   </Link>
