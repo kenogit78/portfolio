@@ -7,7 +7,7 @@ const About = () => {
         <div className={styles["about-container"]} id='about' >
             
             <h1
-            data-aos="zoom-out-down"
+            data-aos="fade-right"
             data-aos-easing="linear"
             data-aos-duration="1000"
             > About </h1>
@@ -19,7 +19,7 @@ const About = () => {
                     <div
                     data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
+                    data-aos-duration="800"
                     className={styles["text-div"]}>
                         <h3> Who am I?</h3>
                         <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer based in Ibadan, Nigeria. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
@@ -30,7 +30,7 @@ const About = () => {
                     <div 
                     data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     className={styles["text-div"]}>
                         <h3> What do I do?</h3>
                         <p>
@@ -40,9 +40,9 @@ const About = () => {
                     </div>
 
                     <div 
-                    data-aos="fade-up"
+                    data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="2000"
+                    data-aos-duration="1200"
                     className={styles["text-div"]}>
                         <h3> What am I passionate about?</h3>
                         <p>

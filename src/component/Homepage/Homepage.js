@@ -36,7 +36,7 @@ const Homepage = () => {
                     // initial={{opacity: 0, y:30}}
                     // animate ={{opacity:1, y:0}}
                     // transition={{ delay: 1, duration: 1}}
-                    > a <span> Web Developer.</span>
+                    > a <span> Full-Stack Web Developer.</span>
                     </p>
                     <br />
                   

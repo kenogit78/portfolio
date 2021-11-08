@@ -1,58 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    scroll-behavior: smooth;
-    width: 100vw;
-    overflow-x: hidden;
+body {
+  scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-h1{
-    font-size: 4em;
+h1 {
+  font-size: 4em;
+  font-family: Lato;
+  color: #1597e5;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Lato;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: Lato;
+  color: #fff;
+}
+
+p {
+  font-family: Lato;
+  line-height: 1.5em;
+  color: #fff9f9;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3em;
     font-family: Lato;
-    color: #1597E5;
-}
+    color: #1597e5;
+  }
 
-h2{
-    font-size: 2em;
-    font-family: Lato; 
-}
-
-h3{
+  h2 {
     font-size: 1.5em;
     font-family: Lato;
+    color: #fff;
+  }
 
-}
-
-p{
+  h3 {
+    font-size: 1.2em;
     font-family: Lato;
-    line-height: 1.5em;
-    color: #505050;
+  }
+  p {
+    font-size: 1em;
+  }
 }
-
-@media screen and (max-width:768px) {
-    h1{
-        font-size: 3em;
-        font-family: Lato;
-        color: #1597E5;
-    }
-    
-    h2{
-        font-size: 1.5em;
-        font-family: Lato; 
-    }
-    
-    h3{
-        font-size: 1.2em;
-        font-family: Lato;
-    
-    }
-    p{
-        font-size: 1em;
-    }
-}
-
-

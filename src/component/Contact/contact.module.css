@@ -1,101 +1,99 @@
-.contact{
-    width: 95vw;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;  
-    background: rgba(149, 216, 255, 0.05);
-
+.contact {
+  width: 95vw;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  /* background: rgba(149, 216, 255, 0.05); */
 }
 
-.contact h1{
-    font-size: 3.5em;
-    font-family: Lato;
+.contact h1 {
+  font-size: 3.5em;
+  font-family: Lato;
 }
 
-.contact-content{
-    display: flex;
-    margin: 2em 0;
+.contact-content {
+  display: flex;
+  margin: 2em 0;
 }
 
-.profile{
-    padding: 3em 0;
-    width: 40%;
+.profile {
+  padding: 3em 0;
+  width: 40%;
 }
 
-.profile img{
-    border-radius: 50%;
-    border: 1px solid #505050;
-    height: 80%;
-    width: 75%;
+.profile img {
+  border-radius: 50%;
+  border: 1px solid #505050;
+  box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
+  height: 80%;
+  width: 75%;
 }
 
-.form-content{
-    width: 60%;
-    padding: 1.5em;
+.form-content {
+  width: 60%;
+  padding: 1.5em;
 }
 
-form{
-    display: flex;
-    flex-direction: column;  
-    margin: 1em 0;
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
-.form-content h3{
-    margin-bottom: 0.5em;
+.form-content h3 {
+  margin-bottom: 0.5em;
 }
 
-form input{
-margin: 1em 0;
-padding: 1em;
-width: 80%;
-height: 4em;
-background: #EDEDED;
-border: 0;
-border-radius: 0.5em;
+form input {
+  margin: 1em 0;
+  padding: 1em;
+  width: 80%;
+  height: 4em;
+  background: #ededed;
+  border: 0;
+  border-radius: 0.5em;
 }
 
-form textarea{
-margin: 1em 0;
-padding: 1em;
-width: 80%;
-background: #EDEDED;
-border: 0;
-border-radius: 0.5em;
+form textarea {
+  margin: 1em 0;
+  padding: 1em;
+  width: 80%;
+  background: #ededed;
+  border: 0;
+  border-radius: 0.5em;
 }
 
-form button{
-    border: 3px solid;
-    border-radius: 8px;
-    padding: 0.5em;
-    font-size: 1.8em;
-    background: #fff;
-    font-family: Lato; 
-    font-weight: bold;
-    cursor: pointer;
-    width: 80%;
+form button {
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 0.5em;
+  font-size: 1.8em;
+  background: #fff;
+  font-family: Lato;
+  font-weight: bold;
+  cursor: pointer;
+  width: 80%;
 }
-.box{
-    position: relative;
-    width: 200px;
-    height: 60px;
-    background: #1597E5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-    overflow: hidden;
-    border-radius: 3px;
-    animation: animate 2s linear infinite;
+.box {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background: #1597e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  overflow: hidden;
+  border-radius: 3px;
+  animation: animate 2s linear infinite;
 }
 
+.box:hover {
+  cursor: pointer;
+  /* background: #ff0000; */
 
-
-.box:hover{
-    cursor: pointer;
-    /* background: #ff0000; */
-    
-    color: #fff9f9;
+  color: #fff9f9;
 }
 
 /* 
@@ -113,50 +111,43 @@ form button{
     }
 } */
 
-
-
-
-.box h3{
-    font-size: 1.2em;
-    color: #fff;
-    z-index: 10;
+.box h3 {
+  font-size: 1.2em;
+  color: #fff;
+  z-index: 10;
 }
 
+@media screen and (max-width: 528px) {
+  .contact {
+    margin: 0;
+    padding: 2em;
+  }
 
-
-
-@media screen and (max-width:528px){
-    .contact{
-        margin: 0;
-        padding: 2em;
-    }
-
-    .contact-content{
-        flex-direction: column;
-        margin: 0;
-    }
-    .profile{
-        display: none;
-    }
-    .form-content{
-        width: 100%;
-        padding: 1em 0;
-    }
-    
-    form{
-        margin: 1em 0;
-    }
-    
-    form input{
+  .contact-content {
+    flex-direction: column;
+    margin: 0;
+  }
+  .profile {
+    display: none;
+  }
+  .form-content {
     width: 100%;
-    }
-    
-    form textarea{
+    padding: 1em 0;
+  }
+
+  form {
+    margin: 1em 0;
+  }
+
+  form input {
     width: 100%;
-    }
-    
-    form button{
-        width: 100%;
-    }
-    
+  }
+
+  form textarea {
+    width: 100%;
+  }
+
+  form button {
+    width: 100%;
+  }
 }

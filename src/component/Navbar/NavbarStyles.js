@@ -7,13 +7,16 @@ import { FaBars } from "react-icons/fa";
 
 export const NavContainer = styled.div`
 display: flex;
-max-width: 100%;
-height:80px;
-z-index:1;
+// max-width: 100%;
+height: 80px;
+z-index: 10;
 justify-content: space-between;
 align-items: center;
 padding: 2em;
-box-shadow: -8px 2px 16px 2px rgba(149, 216, 255, 0.5);
+position: sticky;
+background: #fff9f9;
+top: 0;
+box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
 
 
 @media screen and (max-width: 768px){

@@ -7,9 +7,9 @@ const Resume = () => {
         <div className={styles['resume']} id='resume' >
             
             <h1 
-            data-aos="zoom-out-down"
+            data-aos="fade-right"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             > Resume </h1>
 
             <section className={styles["resume-section"]}>
@@ -34,9 +34,9 @@ const Resume = () => {
                     <div 
                     data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="2000"
+                    data-aos-duration="1500"
                     className={styles["sub-div"]}>
-                        <a href="https://gads.andela.com/"> <h3> Google Africa Developer Program <FaExternalLinkAlt /> </h3> </a>
+                        <a href="https://gads.andela.com/"> <h3> Google Africa Developer<FaExternalLinkAlt /> </h3> </a>
                         
                         <p> Frontend Developer </p>
                         <p> July 2021 - current </p>
@@ -69,12 +69,12 @@ const Resume = () => {
 
             <section className={styles["resume-section"]}>
                     
-                <div data-aos="fade-up" data-aos-duration="3000" className={styles["div-section"]}>
+                <div  className={styles["div-section"]}>
                     <h2> Skills </h2>
                     
     
 
-                    <div className={styles["skills-section"]}> 
+                    <div className={styles["skills-section"]} data-aos="fade-up" data-aos-duration="1500"> 
 
                         <div className={styles["sub-div"]} >
                             <h3> Development</h3>
@@ -103,9 +103,17 @@ const Resume = () => {
 
                 <div className={styles["div-section"]}>
                      <h2> Online Courses </h2>
-
+                     <div 
+                     data-aos="fade-up" data-aos-duration="1500"
+                     className={styles["sub-div"]} >
+                       <a href="https://www.codecademy.com/learn/introduction-to-javascript"> <h3> Codecademy <FaExternalLinkAlt /></h3> </a>
+                       
+                        <p>  Certified JavaScript Web Developer </p>
+                        <p> 2021 </p>
+                    </div>
+                    
                      <div
-                     data-aos="fade-up" data-aos-duration="2000"
+                     data-aos="fade-up" data-aos-duration="1500"
                      className={styles["sub-div"]} >
                         <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><h3> Udemy <FaExternalLinkAlt /> </h3> </a>
                     
@@ -113,14 +121,7 @@ const Resume = () => {
                         <p> 2021 </p>
                     </div>
 
-                     <div 
-                     data-aos="fade-up" data-aos-duration="3000"
-                     className={styles["sub-div"]} >
-                       <a href="https://www.codecademy.com/learn/introduction-to-javascript"> <h3> Codecademy <FaExternalLinkAlt /></h3> </a>
-                       
-                        <p>  Certified JavaScript Web Developer </p>
-                        <p> 2021 </p>
-                    </div>
+                    
 
                   
                 </div>

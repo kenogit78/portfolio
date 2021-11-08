@@ -1,85 +1,86 @@
-.resume{
-    width: 95vw;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    background: rgba(149, 216, 255, 0.05)
+.resume {
+  width: 95vw;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  /* background: rgba(149, 216, 255, 0.05) */
 }
 
-.resume h1{
-    margin: 0.5em 0;
+.resume h1 {
+  font-size: 3.5em;
+  margin-top: 0.5em;
 }
 
-.div-section h2{
-    margin: 0.5em 0;
+.div-section h2 {
+  margin: 0.5em 0;
 }
 
-.resume-section{
-    display: flex;  
+.resume-section {
+  display: flex;
 }
 
-.div-section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.div-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.sub-div{
-    margin-bottom: 1.2em;
-    width: 100%;
+.sub-div {
+  margin-bottom: 1.2em;
+  width: 100%;
 }
 
-.sub-div p{
-    font-size: 20px;
+.sub-div p {
+  font-size: 1.1em;
 }
 
-.skills-section{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.download-resume button{
-    border: 3px solid;
-    border-radius: 8px;
-    padding: 0.5em;
-    font-size: 1.8em;
-    background: #fff;
-    font-family: Lato; 
-    font-weight: bold;
-    cursor: pointer;
+.download-resume button {
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 0.5em;
+  font-size: 1.8em;
+  background: #fff;
+  font-family: Lato;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.sub-div a{
-    text-decoration: none;
-    color: #333;
+.sub-div a {
+  text-decoration: none;
+  color: #333;
 }
 
-.sub-div h3{
-    color: #333;
-    margin-bottom: 0.5em;
+.sub-div h3 {
+  color: #fff9f9;
+  margin-bottom: 0.5em;
 }
 
-.box{
-    position: relative;
-    width: 200px;
-    height: 60px;
-    background: #1597E5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-    overflow: hidden;
-    border-radius: 3px;
-    animation: animate 2s linear infinite;
+.box {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background: #1597e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  overflow: hidden;
+  border-radius: 3px;
+  animation: animate 2s linear infinite;
 }
 
-.box:hover{
-    cursor: pointer;
-    /* background: #ff0000; */
-    
-    color: #fff9f9;
+.box:hover {
+  cursor: pointer;
+  /* background: #ff0000; */
+
+  color: #fff9f9;
 }
 
 /* @keyframes animate {
@@ -94,48 +95,45 @@
     }
 } */
 
-.box h3{
-    font-size: 1.2em;
-    color: #fff;
-    z-index: 10;
+.box h3 {
+  font-size: 1.2em;
+  color: #fff;
+  z-index: 10;
 }
 
-@media screen and (max-width:1028px){
-    .resume{
-        margin: 1em;
-        padding: 1em;
-    }
-    .div-section{
-        width: 90%;
-        
-    }
-    .sub-div{
-        margin-bottom: 1.2em;
-        width: 90%;
-    }
+@media screen and (max-width: 1028px) {
+  .resume {
+    margin: 1em;
+    padding: 1em;
+  }
+  .div-section {
+    width: 90%;
+  }
+  .sub-div {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
 }
 
+@media screen and (max-width: 869px) {
+  .resume-section {
+    flex-direction: column;
+  }
+  .resume {
+    margin: 0;
+    padding: 2em;
+  }
+  .resume h1 {
+    margin: 0.2em 0;
+  }
 
-@media screen and (max-width:869px){
-    .resume-section{
-        flex-direction: column;  
-    }
-    .resume{
-        margin: 0;
-        padding: 2em;
-    }
-    .resume h1{
-        margin: 0.2em 0;
-    }
-    
-    .div-section h2{
-        margin: 0.2em 0;
-    }
-    .sub-div p{
-        font-size: 1em;
-    }
-    .sub-div h3{
-        font-size: 1.1em;
-    }
+  .div-section h2 {
+    margin: 0.2em 0;
+  }
+  .sub-div p {
+    font-size: 1em;
+  }
+  .sub-div h3 {
+    font-size: 1.1em;
+  }
 }
-
