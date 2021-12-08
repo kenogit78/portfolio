@@ -2,18 +2,18 @@ import React from 'react';
 import styles from './work.module.css';
 import ZuriChat from '../../assets/zurichat.PNG';
 import Kelo from '../../assets/kelo.png';
-import {  FaGithub, FaLink  } from 'react-icons/fa';
-import styled from 'styled-components';
+// import {  FaGithub, FaLink  } from 'react-icons/fa';
+// import styled from 'styled-components';
 
 
-const Github = styled(FaGithub)`
-    margin-right: 0.1em;
-    font-size: 1.2em;
-`;
-const Live = styled(FaLink)`
-    margin-right: 0.1em;
-    font-size: 1.2em;
-`;
+// const Github = styled(FaGithub)`
+//     margin-right: 0.1em;
+//     font-size: 1.2em;
+// `;
+// const Live = styled(FaLink)`
+//     margin-right: 0.1em;
+//     font-size: 1.2em;
+// `;
 
 const Work = () => {
     return (

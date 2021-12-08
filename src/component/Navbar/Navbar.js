@@ -24,24 +24,24 @@ const Navbar = ( { toggle } ) => {
         <NavContainer>
 
 
-             <NavLogo to='contact'>   paulkeno </NavLogo>
+             <NavLogo to='/'>   paulkeno </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaIcon />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='work'
+                        <NavLinks to='/work'
                         spy={true} smooth={true} duration={500}
                         > Projects </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='resume' spy={true} smooth={true} duration={500}> Resume </NavLinks>
+                        <NavLinks to='/resume' spy={true} smooth={true} duration={500}> Resume </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='about' spy={true} smooth={true} duration={500}> About </NavLinks>
+                        <NavLinks to='/about' spy={true} smooth={true} duration={500}> About </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='contact' spy={true} smooth={true} duration={500}> Contact </NavLinks>
+                        <NavLinks to='/contact' spy={true} smooth={true} duration={500}> Contact </NavLinks>
                     </NavItem>
                 </NavMenu>
 

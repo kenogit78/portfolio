@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link as LinkS } from 'react-scroll'
 import {FaTimes} from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
-// import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkR } from 'react-router-dom'
 
 
 export const NavContainer = styled.div`
@@ -14,7 +14,7 @@ justify-content: space-between;
 align-items: center;
 padding: 2em;
 position: sticky;
-background: #fff9f9;
+background: #fff;
 top: 0;
 box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
 
@@ -24,7 +24,7 @@ box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
 }
 `
 
-export const NavLogo = styled(LinkS)`
+export const NavLogo = styled(LinkR)`
 margin-left: 2em;
 display: flex;
 align-items: center;
@@ -32,7 +32,6 @@ font-size: 2em;
 text-decoration: none;
 color: #000;
 font-weight: 550;
-font-family: Lato;
 cursor: pointer;
 
 @media screen and (max-width: 768px){
@@ -77,12 +76,12 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-    font-family: Lato;
+    // font-family: Lato;
 
     
 `
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     height: 100%;
     text-decoration: none;
     padding: 0 1.5em;

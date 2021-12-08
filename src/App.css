@@ -29,7 +29,7 @@ h3 {
 
 p {
   line-height: 1.5em;
-  color: #fff9f9;
+  color: #333;
 }
 
 @media screen and (max-width: 768px) {

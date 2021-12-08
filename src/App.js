@@ -8,6 +8,9 @@ import Homepage from "./component/Homepage/Homepage";
 import Navbar from './component/Navbar/Navbar';
 import Sidebar from "./component/Navbar/Sidebar";
 import Work from "./component/Work/Work";
+import About from "./component/About/About";
+import Contact from "./component/Contact/Contact";
+import Resume from "./component/Resume/Resume";
 
 function App() {
  
@@ -27,6 +30,12 @@ function App() {
         <Route exact path="/" component={Homepage} />
 
         <Route exact path="/work" component={Work} />
+
+        <Route exact path="/about" component={About} />
+
+        <Route exact path="/contact" component={Contact} />
+
+        <Route exact path="/resume" component={Resume} />
        
       </Switch>
 
