@@ -1,13 +1,9 @@
 import React from 'react';
-import About from '../About/About';
-import Contact from '../Contact/Contact';
-import Resume from '../Resume/Resume';
 import Work from '../Work/Work';
 import styles from './homepage.module.css';
-import Image from '../../assets/keno.png';
 import Footer from '../Footer/Footer';
-// import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { HiArrowSmRight } from 'react-icons/hi';
 
 const Homepage = () => {
     return (
@@ -17,14 +13,11 @@ const Homepage = () => {
 
                 <div className={styles["text"]} >
                     <h1
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    // initial={{opacity: 0, y:30}}
-                    // animate ={{opacity:1, y:0}}
-                    // transition={{ duration: 1}}
+                    data-aos-duration="300"
                     > 
-                        Hi, I'm <span>Keno,</span> 
+                        Hi, I'm Adaroje Paul Keno
                     </h1>
                     
                    
@@ -32,64 +25,48 @@ const Homepage = () => {
                     <p
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    // initial={{opacity: 0, y:30}}
-                    // animate ={{opacity:1, y:0}}
-                    // transition={{ delay: 1, duration: 1}}
-                    > a <span> Full-Stack Web Developer.</span>
+                    data-aos-duration="400"
+                    > a <span> Fulltack Web Developer.</span>
                     </p>
                     <br />
                   
                     <p
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1500"
-                    // initial={{opacity: 0, y:30}}
-                    // animate ={{opacity:1, y:0}}
-                    // transition={{ delay: 1.3, duration: 1}}
-                    > I specialize in providing Web solutions by writing clean codes for Websites & Web applications. </p>
+                    data-aos-duration="400"
+                    > I am a creative and solution-oriented software engineer who loves solving problems 
+                    by creating products that have relevance in our present world. </p>
                     <br />
                   
                     <p
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="2000"
-                    // initial={{opacity: 0, y:30}}
-                    // animate ={{opacity:1, y:0}}
-                    // transition={{ delay: 1.5, duration: 1}}
-                    > I believe in creating products that have relevance in our present world.
+                    data-aos-duration="400"
+                    > I'm experienced in developing websites, eCommerce, web applications, 
+                    creating site engines from scratch, Complex database design, implementing real-time updates of content.
                     </p>
                     <Link to="about">
                     <div className={styles["box"]}
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="2500" >
-                       <h3> Know More  </h3>  
+                    data-aos-duration="400" >
+                       <p>See more about me  </p> 
+                       <div className={styles.icon}> <HiArrowSmRight fontSize='1.2em' /> </div>
                   </div>
                   </Link>
                    
                 </div>
                     
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
-                    className={styles["profile"]}
-                    >
-                    {/* <div className={styles["profile-box"]} >  </div> */}
-                  <img className="" src= { Image } alt="profile" />
-                  
-                </div>
-
-                
+                           
 
 
                 
             </div>
 
             <Work />
-            <Resume />
+            {/* <Resume />
             <About />
-            <Contact />
+            <Contact /> */}
             </div>
             <Footer />
             

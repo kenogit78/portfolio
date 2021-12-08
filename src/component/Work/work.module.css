@@ -1,10 +1,11 @@
 .work-container {
   width: 95vw;
-  /* margin: 1em; */
   display: flex;
   padding: 2em;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  /* font-family: 'Roboto Condensed'; */
 }
 
 .work-container h1 {
@@ -19,14 +20,16 @@
 }
 
 .work-content {
-  width: 100%;
+  /* width: 100%; */
+  display: flex;
   padding: 1em;
   margin: 1em;
 }
 
 .work-content h2 {
   font-size: 3em;
-  color: #fff;
+  color: #333;
+  font-weight: bold;
 }
 
 .work-content p {
@@ -58,32 +61,34 @@
 .kelo {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .kelo img {
-  flex: 0.6;
+  /* flex: 0.6; */
   height: 60vh;
+}
+.work-content .chat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .details {
-  background: #fff9ff;
-  flex: 0.4;
-  padding: 1em;
-  margin: 3em 0;
-  border-radius: 2px;
-  font-family: Lato;
+  /* flex: 0.4; */
   display: flex;
-  flex-direction: column;
-
   justify-content: center;
 }
 
-.details h3 {
-  color: #000;
-}
 .details p {
+  background: rgb(216, 216, 216);
+  margin-left: 0.5em;
+  border-radius: 7px;
+  padding: 0.5em;
   color: #000;
+  font-size: 1em;
   font-style: normal;
 }
 

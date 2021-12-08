@@ -19,57 +19,56 @@ const Work = () => {
     return (
         <div className={styles["work-container"]} id='work' >
             
-            <h1
-             data-aos="fade-right"
+            <h2
+             data-aos="fade-up"
              data-aos-easing="linear"
-             data-aos-duration="1000"
-            > Projects </h1>
+             data-aos-duration="300"
+            > Selected Projects </h2>
 
         <section className={styles["work-section"]}>
 
             <div className={styles["work-content"]}>
-                <h2
-                 data-aos="fade-right"
-                 data-aos-easing="linear"
-                 data-aos-duration="1000"
-                >
-                    Zuri Chat
-                </h2>
-                <p
-                 data-aos="fade-right"
-                 data-aos-easing="linear"
-                 data-aos-duration="1000"
-                > Full Stack Build </p>
-
-                <div className={styles["kelo"]}>
+               
+    
+                <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="300"
+                className={styles["kelo"]}>
                     <img 
-                     data-aos="fade-right"
-                     data-aos-easing="linear"
-                     data-aos-duration="1200"
+                     
                     src={ZuriChat} alt="" />
 
+                <div className={styles.chat}>
+                        <h3>  Zuri Chat</h3>
                     <div
-                     data-aos="fade-left"
-                     data-aos-easing="linear"
-                     data-aos-duration="1000"
                     className={styles["details"]} >
-                        <h3>About ZuriChat</h3>
+                        {/* <h3>About ZuriChat</h3>
                         <p> ZuriChat is a workspace and communication tool for organizations with vast out of the box functionalities.</p>
-                        <p> Stacks : Html, Css, JavaScript,</p>
-                <p> Frameworks : Reactjs, Nodejs</p>
+                        <p> Stacks : Html, Css, JavaScript,</p> */}
+                       
+                        <p>  React </p>
+                    <p>Nodejs</p> 
+                    <p>Redux </p> 
+                                
+                        </div>
+              
 
-                <div  className={styles["work-link"]} >
-            <div className={styles["link"]}>
-            <a href="https://github.com/kenogit78/zc_main"> <p>  < Github/> Source code </p>  </a>
-                
-            </div >
+                            {/* <div>  <p>  React, Nodejs</p> </div>
+                            <div>  </div> */}
 
-            <div className={styles["link"]}>
-               <a href="https://zuri.chat/"> <p> <Live /> Live site</p> </a>
+                            {/* <div  className={styles["work-link"]} >
+                        <div className={styles["link"]}>
+                        <a href="https://github.com/kenogit78/zc_main"> <p>  < Github/> Source code </p>  </a>
+                            
+                        </div >
 
-            </div>
+                        <div className={styles["link"]}>
+                        <a href="https://zuri.chat/"> <p> <Live /> Live site</p> </a>
 
-            </div>
+                        </div>
+
+                        </div> */}
                     </div>
                 </div>
 
@@ -80,38 +79,28 @@ const Work = () => {
       
 
             <div className={styles["work-content"]}>
-            <h2
-             data-aos="fade-right"
-             data-aos-easing="linear"
-             data-aos-duration="1000"
-            >
-                    Kelo App
-                </h2>
-                <p
-                 data-aos="fade-right"
-                 data-aos-easing="linear"
-                 data-aos-duration="1000"
-                > Full Stack Build </p>
+        
 
-                <div className={styles["kelo"]}>
+                <div 
+                   data-aos="fade-up"
+                   data-aos-easing="linear"
+                   data-aos-duration="300"
+                className={styles["kelo"]}>
                     <img 
-                     data-aos="fade-right"
-                     data-aos-easing="linear"
-                     data-aos-duration="1200"
+                  
                     src={Kelo} alt="" />
-
+  <div className={styles.chat}>
+                        <h3> Kelo  App</h3>
                     <div 
-                     data-aos="fade-left"
-                     data-aos-easing="linear"
-                     data-aos-duration="1000"
                     className={styles["details"]} >
-                        <h3>About Kelo</h3>
+                        {/* <h3>About Kelo</h3>
                         <p> Kelo is a web application that helps people find places like hotels, restaurants and attractions. Implemented with Google Maps api, you can easily access places around you</p>
 
-                        <p> Stacks : Html, Css, JavaScript,</p>
-                <p> Frameworks : Reactjs, Nodejs</p>
+                        <p> Stacks : Html, Css, JavaScript,</p> */}
+                <p> Reactjs</p>
+                <p>  Nodejs</p>
 
-                <div  className={styles["work-link"]} >
+                {/* <div  className={styles["work-link"]} >
             <div className={styles["link"]}>
             <a href="https://github.com/kenogit78/Kelo"> <p>  < Github/> Source code </p> </a>
                 
@@ -122,8 +111,9 @@ const Work = () => {
 
             </div>
 
-            </div>
+            </div> */}
                     </div>
+                </div>
                 </div>
 
 

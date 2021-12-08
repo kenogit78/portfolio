@@ -9,7 +9,7 @@ const Resume = () => {
             <h1 
             data-aos="fade-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             > Resume </h1>
 
             <section className={styles["resume-section"]}>
@@ -22,7 +22,7 @@ const Resume = () => {
                     <div 
                     data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="1500"
+                    data-aos-duration="1000"
                     // data-aos-easing="ease-in-sine"
                     className={styles["sub-div"]} >
                       <a href="https://hng.tech/">  <h3> HNGi8 Internship <FaExternalLinkAlt /> </h3> </a> 
@@ -34,7 +34,7 @@ const Resume = () => {
                     <div 
                     data-aos="fade-right"
                     data-aos-easing="linear"
-                    data-aos-duration="1500"
+                    data-aos-duration="1000"
                     className={styles["sub-div"]}>
                         <a href="https://gads.andela.com/"> <h3> Google Africa Developer<FaExternalLinkAlt /> </h3> </a>
                         
@@ -49,7 +49,7 @@ const Resume = () => {
                     <div 
                     data-aos="fade-left"
                     data-aos-easing="linear"
-                    data-aos-duration="1500"
+                    data-aos-duration="1000"
                     className={styles["sub-div"]} >
                         <a href="https://uniben.edu.ng/"><h3> University of Benin <FaExternalLinkAlt /></h3></a>
                        
@@ -104,7 +104,7 @@ const Resume = () => {
                 <div className={styles["div-section"]}>
                      <h2> Online Courses </h2>
                      <div 
-                     data-aos="fade-up" data-aos-duration="1500"
+                     data-aos="fade-up" data-aos-duration="1000"
                      className={styles["sub-div"]} >
                        <a href="https://www.codecademy.com/learn/introduction-to-javascript"> <h3> Codecademy <FaExternalLinkAlt /></h3> </a>
                        
@@ -113,7 +113,7 @@ const Resume = () => {
                     </div>
                     
                      <div
-                     data-aos="fade-up" data-aos-duration="1500"
+                     data-aos="fade-up" data-aos-duration="1000"
                      className={styles["sub-div"]} >
                         <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><h3> Udemy <FaExternalLinkAlt /> </h3> </a>
                     

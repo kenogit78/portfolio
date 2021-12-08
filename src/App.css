@@ -7,29 +7,27 @@
 body {
   scroll-behavior: smooth;
   width: 100vw;
+  font-family: 'Roboto Condensed';
   overflow-x: hidden;
 }
 
 h1 {
-  font-size: 4em;
-  font-family: Lato;
-  color: #1597e5;
+  font-size: 3.5em;
+  
+  color: #333;
 }
 
 h2 {
   font-size: 2em;
-  font-family: Lato;
-  color: #fff;
+  color: #333;
 }
 
 h3 {
   font-size: 1.5em;
-  font-family: Lato;
-  color: #fff;
+  color: #333;
 }
 
 p {
-  font-family: Lato;
   line-height: 1.5em;
   color: #fff9f9;
 }
@@ -37,19 +35,16 @@ p {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 3em;
-    font-family: Lato;
     color: #1597e5;
   }
 
   h2 {
     font-size: 1.5em;
-    font-family: Lato;
     color: #fff;
   }
 
   h3 {
     font-size: 1.2em;
-    font-family: Lato;
   }
   p {
     font-size: 1em;
