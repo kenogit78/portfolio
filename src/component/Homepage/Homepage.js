@@ -1,8 +1,7 @@
 import React from 'react';
 import Work from '../Work/Work';
 import styles from './homepage.module.css';
-import Footer from '../Footer/Footer';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { HiArrowSmRight } from 'react-icons/hi';
 
 const Homepage = () => {
@@ -64,11 +63,8 @@ const Homepage = () => {
             </div>
 
             <Work />
-            {/* <Resume />
-            <About />
-            <Contact /> */}
+        
             </div>
-            <Footer />
             
         </div>
     )

@@ -11,6 +11,7 @@ import Work from "./component/Work/Work";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import Resume from "./component/Resume/Resume";
+import Footer from "./component/Footer/Footer";
 
 function App() {
  
@@ -39,7 +40,7 @@ function App() {
        
       </Switch>
 
-      
+      <Footer />
      
 
       </Router>

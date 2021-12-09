@@ -1,5 +1,5 @@
 .footer{
-    background: #1597E5;
+    background: #00000f;
    padding: 1em;
    color: white;
    display: flex;
@@ -10,6 +10,11 @@
 
 .footer-links{
     margin: 1em;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer p{

@@ -4,12 +4,10 @@
   display: flex;
   flex-direction: column;
   padding: 1em;
-  /* background: rgba(149, 216, 255, 0.05); */
 }
 
 .contact h1 {
   font-size: 3.5em;
-  font-family: Lato;
 }
 
 .contact-content {
