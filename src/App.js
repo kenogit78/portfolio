@@ -12,6 +12,7 @@ import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import Resume from "./component/Resume/Resume";
 import Footer from "./component/Footer/Footer";
+import ScrollToTop from "./component/Homepage/ScrollTop";
 
 function App() {
  
@@ -24,6 +25,8 @@ function App() {
   Aos.init();
   return (
     <Router>
+
+      <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle}  />
       <Navbar toggle={toggle}  />
 

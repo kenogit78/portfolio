@@ -7,22 +7,27 @@
 }
 
 .home-container {
-  margin-top: 4em;
+  /* margin-top: 4em; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
+  height: 80vh;
 }
 
-.text {
+.home-container .text {
   width: 65%;
  
 }
 
-.text h1 {
-  font-size: 4em;
+.home-container .text a {
+  text-decoration: none;
+}
+
+.home-container .text h1 {
+
   margin-bottom: 0.2em;
-  color: #000;
+  color: #00000f;
 }
 
 

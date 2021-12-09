@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './work.module.css';
 import ZuriChat from '../../assets/zurichat.PNG';
 import Kelo from '../../assets/kelo.png';
+import { Link } from 'react-router-dom';
+import { HiArrowSmRight } from 'react-icons/hi';
 // import {  FaGithub, FaLink  } from 'react-icons/fa';
 // import styled from 'styled-components';
 
@@ -28,16 +30,12 @@ const Work = () => {
         <section className={styles["work-section"]}>
 
             <div className={styles["work-content"]}>
-               
-    
                 <div
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="300"
                 className={styles["kelo"]}>
-                    <img 
-                     
-                    src={ZuriChat} alt="" />
+                    <img src={ZuriChat} alt="" />
 
                 <div className={styles.chat}>
                         <h3>  Zuri Chat</h3>
@@ -52,8 +50,6 @@ const Work = () => {
                     <p>Redux </p> 
                                 
                         </div>
-              
-
                             {/* <div>  <p>  React, Nodejs</p> </div>
                             <div>  </div> */}
 
@@ -71,12 +67,8 @@ const Work = () => {
                         </div> */}
                     </div>
                 </div>
-
-
-               
+        
             </div>
-
-      
 
             <div className={styles["work-content"]}>
         
@@ -85,14 +77,13 @@ const Work = () => {
                    data-aos="fade-up"
                    data-aos-easing="linear"
                    data-aos-duration="300"
-                className={styles["kelo"]}>
-                    <img 
-                  
-                    src={Kelo} alt="" />
-  <div className={styles.chat}>
+                    className={styles["kelo"]}>
+                    <img src={Kelo} alt="" />
+
+
+                    <div className={styles.chat}>
                         <h3> Kelo  App</h3>
-                    <div 
-                    className={styles["details"]} >
+                    <div className={styles["details"]} >
                         {/* <h3>About Kelo</h3>
                         <p> Kelo is a web application that helps people find places like hotels, restaurants and attractions. Implemented with Google Maps api, you can easily access places around you</p>
 
@@ -119,6 +110,16 @@ const Work = () => {
 
             </div>
         </section>
+
+        <Link to="/work">
+            <div className={styles["box"]}
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="400" >
+                <p>See more projects  </p> 
+                <div className={styles.icon}> <HiArrowSmRight fontSize='1.2em' /> </div>
+            </div>
+        </Link>
         </div>
     )
 }

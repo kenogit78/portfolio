@@ -6,9 +6,7 @@
   padding: 1em;
 }
 
-.contact h1 {
-  font-size: 3.5em;
-}
+
 
 .contact-content {
   display: flex;
@@ -43,6 +41,11 @@ form {
   margin-bottom: 0.5em;
 }
 
+.form-content .box h3 {
+  color: #fff;
+  margin: 0;
+}
+
 form input {
   margin: 1em 0;
   padding: 1em;
@@ -54,6 +57,7 @@ form input {
 }
 
 form textarea {
+  font-family: 'Roboto Condensed';
   margin: 1em 0;
   padding: 1em;
   width: 80%;
@@ -74,10 +78,9 @@ form button {
   width: 80%;
 }
 .box {
-  position: relative;
   width: 200px;
   height: 60px;
-  background: #1597e5;
+  background: #00000f;
   display: flex;
   justify-content: center;
   align-items: center;

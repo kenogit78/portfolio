@@ -2,6 +2,7 @@
   width: 95vw;
   display: flex;
   padding: 2em;
+  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,18 +15,34 @@
 
 .work-section {
   display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  margin: 1em; 
+}
+
+.work-content {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.work-content {
-  /* width: 100%; */
-  display: flex;
-  padding: 1em;
-  margin: 1em;
+.work-content .kelo {
+  width: 500px;
+
+  
+}
+
+.work-content .kelo img{
+  width: 100%;
+  height: 100%;
+  
 }
 
 .work-content h2 {
+ 
   font-size: 3em;
   color: #333;
   font-weight: bold;
@@ -57,39 +74,77 @@
   text-decoration: none;
 }
 
-.kelo {
+.work-content .chat {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.kelo img {
-  /* flex: 0.6; */
-  height: 60vh;
-}
-.work-content .chat {
-  display: flex;
-  flex-direction: column;
+.work-content .chat h3{
   width: 100%;
-  align-items: center;
+  text-align: start;
 }
 
 .details {
-  /* flex: 0.4; */
   display: flex;
-  justify-content: center;
 }
 
 .details p {
   background: rgb(216, 216, 216);
-  margin-left: 0.5em;
+  margin-right: 0.5em;
   border-radius: 7px;
   padding: 0.5em;
   color: #000;
-  font-size: 1em;
+  font-size: 0.8em;
   font-style: normal;
+  line-height: normal;
 }
+
+.work-container a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+ justify-content: center;
+  color: #333;
+  align-items: center;
+}
+
+.box p {
+  font-size: 1.4em;
+  color: #333;
+  z-index: 10;
+  padding-right: 0.2em;
+}
+
+.box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animate 1s linear infinite;
+}
+
+.box:hover {
+  color: #000;
+  cursor: pointer;
+}
+.box p:hover {
+  color: #000;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .work-section {

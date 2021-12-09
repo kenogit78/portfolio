@@ -16,7 +16,7 @@ const Homepage = () => {
                     data-aos-easing="linear"
                     data-aos-duration="300"
                     > 
-                        Hi, I'm Adaroje Paul Keno
+                        Hi, I'm Paul Keno Adaroje
                     </h1>
                     
                    
@@ -44,7 +44,7 @@ const Homepage = () => {
                     > I'm experienced in developing websites, eCommerce, web applications, 
                     creating site engines from scratch, Complex database design, implementing real-time updates of content.
                     </p>
-                    <Link to="about">
+                    <Link to="/about">
                     <div className={styles["box"]}
                     data-aos="fade-up"
                     data-aos-easing="linear"
