@@ -11,7 +11,7 @@ height: 80px;
 z-index: 10;
 justify-content: space-between;
 align-items: center;
-padding: 2em;
+padding: 2em 0;
 position: sticky;
 background: #fff;
 top: 0;
@@ -38,13 +38,13 @@ cursor: pointer;
 }
 
 &:hover{
-    color: #1597E5;
+    color: #00000f;
     transition: 0.7s ease-in-out;
 }
 `
 
 export const FaIcon = styled(FaBars)`
-    color: #1597E5;
+    color: #00000f;
 
  `
 
@@ -56,7 +56,7 @@ export const MobileIcon = styled.div`
         margin-right: 1em;
         font-size: 1.8em;
         cursor: pointer;
-        color: #1597E5
+        color: #00000f
 
     }
 `
@@ -90,7 +90,7 @@ export const NavLinks = styled(LinkR)`
     cursor: pointer;
 
     &:hover{
-        color: #1597E5;
+        color: #00000f;
         transition: 0.4s ease-in-out;
     }
 `
@@ -113,7 +113,7 @@ export const SidebarContainer = styled.aside`
 `
 
  export const CloseIcon = styled(FaTimes)`
-    color: #1597E5;
+    color: #fff;
 
  `
 
@@ -156,7 +156,7 @@ export const SidebarContainer = styled.aside`
     cursor: pointer;
 
     &:hover {
-        color: #1597E5;
+        color: #00000f;
         transition: 0.2s ease-in-out;
     }
  `

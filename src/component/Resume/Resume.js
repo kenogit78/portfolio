@@ -7,9 +7,9 @@ const Resume = () => {
         <div className={styles['resume']} id='resume' >
             
             <h1 
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-easing="linear"
-            data-aos-duration="800"
+            data-aos-duration="400"
             > Resume </h1>
 
             <section className={styles["resume-section"]}>
@@ -17,12 +17,12 @@ const Resume = () => {
                 <div 
                 
                 className={styles["div-section"]} >
-                    <h2> Work Experience </h2>
+                    <h2 data-aos="fade-up" data-aos-duration="500"> Work Experience </h2>
 
                     <div 
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     // data-aos-easing="ease-in-sine"
                     className={styles["sub-div"]} >
                       <a href="https://hng.tech/">  <h3> HNGi8 Internship <FaExternalLinkAlt /> </h3> </a> 
@@ -32,9 +32,9 @@ const Resume = () => {
                     </div>
 
                     <div 
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     className={styles["sub-div"]}>
                         <a href="https://gads.andela.com/"> <h3> Google Africa Developer<FaExternalLinkAlt /> </h3> </a>
                         
@@ -45,11 +45,11 @@ const Resume = () => {
                 </div>
 
                 <div className={styles["div-section"]}>
-                    <h2> Education </h2>
+                    <h2 data-aos="fade-up" data-aos-duration="500"> Education </h2>
                     <div 
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     className={styles["sub-div"]} >
                         <a href="https://uniben.edu.ng/"><h3> University of Benin <FaExternalLinkAlt /></h3></a>
                        
@@ -70,14 +70,14 @@ const Resume = () => {
             <section className={styles["resume-section"]}>
                     
                 <div  className={styles["div-section"]}>
-                    <h2> Skills </h2>
+                    <h2 data-aos="fade-up" data-aos-duration="500"> Skills </h2>
                     
     
 
-                    <div className={styles["skills-section"]} data-aos="fade-up" data-aos-duration="1500"> 
+                    <div className={styles["skills-section"]} data-aos="fade-up" data-aos-duration="500"> 
 
                         <div className={styles["sub-div"]} >
-                            <h3> Development</h3>
+                            <h3 data-aos="fade-up" data-aos-duration="500"> Development</h3>
                          
                             <p> HTML5 </p>
                             <p> CSS3 </p>
@@ -101,10 +101,10 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div className={styles["div-section"]}>
-                     <h2> Online Courses </h2>
+                <div className={styles["div-section"]} data-aos="fade-up" data-aos-duration="500">
+                     <h2 > Online Courses  </h2>
                      <div 
-                     data-aos="fade-up" data-aos-duration="1000"
+                     data-aos="fade-up" data-aos-duration="500"
                      className={styles["sub-div"]} >
                        <a href="https://www.codecademy.com/learn/introduction-to-javascript"> <h3> Codecademy <FaExternalLinkAlt /></h3> </a>
                        
@@ -113,7 +113,7 @@ const Resume = () => {
                     </div>
                     
                      <div
-                     data-aos="fade-up" data-aos-duration="1000"
+                     data-aos="fade-up" data-aos-duration="500"
                      className={styles["sub-div"]} >
                         <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><h3> Udemy <FaExternalLinkAlt /> </h3> </a>
                     

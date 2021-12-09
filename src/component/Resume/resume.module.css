@@ -119,6 +119,7 @@
 @media screen and (max-width: 869px) {
   .resume-section {
     flex-direction: column;
+    justify-content: center;
   }
   .resume {
     margin: 0;
