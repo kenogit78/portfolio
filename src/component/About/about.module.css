@@ -45,11 +45,11 @@
 }
 
 .text-div {
-  margin: 1.5em 0;
+  margin: 1em 0;
 }
 
 .text-div h3 {
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
   margin-bottom: 0.2em;
 }
 

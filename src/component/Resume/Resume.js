@@ -129,7 +129,7 @@ const Resume = () => {
             </section>
 
             <div className={styles["box"]} >
-                       <h3>Download Resume  </h3>  
+                       <h4>Download Resume  </h4>  
                   </div>
 
 

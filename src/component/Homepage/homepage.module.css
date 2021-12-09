@@ -132,8 +132,17 @@
 }
 
 @media screen and (max-width: 528px) {
+
+  .home-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: fit-content;
+  }
   .text h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .profile img {
@@ -149,5 +158,8 @@
   .text p {
     font-size: 1em;
     line-height: 1.34m;
+  }
+  .home-container .text {
+    width: 100%;
   }
 }
