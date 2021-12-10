@@ -25,7 +25,7 @@ const Homepage = () => {
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="400"
-                    > a <span> Fulltack Web Developer.</span>
+                    > a <span> Fullstack Web Developer.</span>
                     </p>
                     <br />
                   
