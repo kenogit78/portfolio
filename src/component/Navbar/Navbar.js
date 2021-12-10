@@ -30,7 +30,7 @@ const Navbar = ( { toggle } ) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='/work'
+                        <NavLinks to='/project'
                         spy={true} smooth={true} duration={500}
                         > Projects </NavLinks>
                     </NavItem>

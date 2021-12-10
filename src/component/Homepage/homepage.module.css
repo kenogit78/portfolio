@@ -84,6 +84,18 @@
   }
 }
 
+.small-container .touch {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.small-container .touch a {
+  text-decoration: none;
+  color:#00000f;
+  font-size: 1.4em;
+  
+}
+
 
 
 @media screen and (max-width: 1028px) {

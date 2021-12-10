@@ -63,6 +63,11 @@ const Homepage = () => {
             </div>
 
             <Work />
+
+            <div className={styles.touch}>
+                <h3> Open to opportunities & collaborations</h3>
+                <a href="mailto:paulkenoofficial@gmail.com"> Get in touch </a>
+            </div>
         
             </div>
             

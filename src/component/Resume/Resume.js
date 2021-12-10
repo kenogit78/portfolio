@@ -10,7 +10,7 @@ const Resume = () => {
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="400"
-            > Resume </h1>
+            > Resume. </h1>
 
             <section className={styles["resume-section"]}>
 

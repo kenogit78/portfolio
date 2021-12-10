@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Homepage from "./component/Homepage/Homepage";
 import Navbar from './component/Navbar/Navbar';
 import Sidebar from "./component/Navbar/Sidebar";
-import Work from "./component/Work/Work";
+import Projects from "./component/Projects/Projects";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import Resume from "./component/Resume/Resume";
@@ -33,7 +33,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Homepage} />
 
-        <Route exact path="/work" component={Work} />
+        <Route exact path="/project" component={Projects} />
 
         <Route exact path="/about" component={About} />
 
