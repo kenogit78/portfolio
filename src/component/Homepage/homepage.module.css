@@ -159,6 +159,11 @@
     font-size: 1em;
     line-height: 1.34m;
   }
+
+  .text .box p {
+    font-size: 1.4em;
+    line-height: 1.34m;
+  }
   .home-container .text {
     width: 100%;
   }
