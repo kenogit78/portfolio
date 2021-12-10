@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './resume.module.css';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import { HiArrowSmRight } from 'react-icons/hi';
 
 const Resume = () => {
     return (
@@ -25,11 +27,23 @@ const Resume = () => {
                     data-aos-duration="500"
                     // data-aos-easing="ease-in-sine"
                     className={styles["sub-div"]} >
+                      <a href="https://www.zuri.chat/">  <h3> ZuriChat <FaExternalLinkAlt /> </h3> </a> 
+                        
+                        <p> Frontend Developer </p>
+                        <p> October 2021 - current </p>
+                    </div>
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                    // data-aos-easing="ease-in-sine"
+                    className={styles["sub-div"]} >
                       <a href="https://hng.tech/">  <h3> HNGi8 Internship <FaExternalLinkAlt /> </h3> </a> 
                         
                         <p> Frontend Developer </p>
                         <p> August 2021 - October 2021 </p>
                     </div>
+                    
 
                     <div 
                     data-aos="fade-up"
@@ -42,7 +56,22 @@ const Resume = () => {
                         <p> July 2021 - current </p>
                     </div>
 
+                    
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                    // data-aos-easing="ease-in-sine"
+                    className={styles["sub-div"]} >
+                      <a href="https://www.desrio.com/">  <h3> Desrio <FaExternalLinkAlt /> </h3> </a> 
+                        
+                        <p> Software Engineer </p>
+                        <p> Feb 2020 - July 2021 </p>
+                    </div>
+
                 </div>
+
+
 
                 <div className={styles["div-section"]}>
                     <h2 data-aos="fade-up" data-aos-duration="500"> Education </h2>
@@ -77,7 +106,7 @@ const Resume = () => {
                     <div className={styles["skills-section"]} data-aos="fade-up" data-aos-duration="500"> 
 
                         <div className={styles["sub-div"]} >
-                            <h3 data-aos="fade-up" data-aos-duration="500"> Development</h3>
+                            <h3 > Development</h3>
                          
                             <p> HTML5 </p>
                             <p> CSS3 </p>
@@ -131,6 +160,16 @@ const Resume = () => {
             <div className={styles["box"]} >
                        <h4>Download Resume  </h4>  
                   </div>
+
+            <Link to="/resume">
+                <div className={styles["boxes"]}
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="400" >
+                    <p>Convinced enough? contact me already </p> 
+                    <div className={styles.icon}> <HiArrowSmRight fontSize='1.2em' /> </div>
+                </div>
+            </Link>
 
 
 
