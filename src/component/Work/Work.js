@@ -32,13 +32,15 @@ const Work = () => {
         <section className={styles["work-section"]}>
 
             <div className={styles["work-content"]}>
+                
                 <div
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="300"
                 className={styles["kelo"]}>
-                    <img src={ZuriChat} alt="" />
-
+                    <a href="https://www.zuri.chat/">
+                        <img src={ZuriChat} alt="" />
+                   </a>
                 <div className={styles.chat}>
                         <h3>  Zuri Chat</h3>
                     <div
@@ -80,8 +82,9 @@ const Work = () => {
                    data-aos-easing="linear"
                    data-aos-duration="300"
                     className={styles["kelo"]}>
-                    <img src={Kelo} alt="" />
-
+                        <a href="https://epic-edison-44cffb.netlify.app/">
+                            <img src={Kelo} alt="" />
+                        </a>
 
                     <div className={styles.chat}>
                         <h3> Kelo  App</h3>
