@@ -39,7 +39,9 @@ const Work = () => {
                 data-aos-easing="linear"
                 data-aos-duration="300"
                 className={styles["kelo"]}>
-                    <img src={ZuriChat} alt="" />
+                    <a href="https://www.zuri.chat/">
+                        <img src={ZuriChat} alt="" />
+                   </a>
 
                 <div className={styles.chat}>
                         <h3>  Zuri Chat</h3>
@@ -82,7 +84,9 @@ const Work = () => {
                    data-aos-easing="linear"
                    data-aos-duration="300"
                     className={styles["kelo"]}>
-                    <img src={Kelo} alt="" />
+                    <a href="https://epic-edison-44cffb.netlify.app/">
+                            <img src={Kelo} alt="" />
+                        </a>
 
 
                     <div className={styles.chat}>
@@ -161,7 +165,9 @@ const Work = () => {
                    data-aos-easing="linear"
                    data-aos-duration="300"
                     className={styles["kelo"]}>
-                    <img src={Dashboard} alt="" />
+                    <a href="https://dashboardgecko.netlify.app/">
+                        <img src={Dashboard} alt="" />
+                   </a>
 
 
                     <div className={styles.chat}>
