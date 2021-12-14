@@ -24,7 +24,7 @@ const Footer = () => {
     return (
         <div className={styles["footer"]}>
 
-            <p> connect with me on social media </p>
+            <p> Connect with me on social media </p>
             <div className={styles["footer-links"]}>
               <a href="https://www.twitter.com/paulkeno_"> < Twitter /> </a> 
               <a href="https://www.instagram.com/paulkeno_">   < Instagram /></a> 

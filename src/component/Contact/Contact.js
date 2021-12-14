@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './contact.module.css';
-import Image from '../../assets/keno.png';
+// import Image from '../../assets/keno.png';
 
 const Contact = () => {
     return (
@@ -16,13 +16,13 @@ const Contact = () => {
 
             <div className={styles["contact-content"]} >
 
-                <div 
+                {/* <div 
                 data-aos="zoom-out"
                 data-aos-easing="linear"
                 data-aos-duration="400"
                 className={styles["profile"]}>
                   <img className="" src= { Image } alt="profile" />
-                </div>
+                </div> */}
 
                 <div 
                 data-aos="fade-up"
@@ -30,7 +30,7 @@ const Contact = () => {
                 data-aos-duration="400"
                 className={styles["form-content"]} >
                     <h3> Want to connect with me?</h3>
-                    <h3> Drop a message here?</h3>
+                    <h3> Drop a message here.</h3>
                   
 
                     

@@ -34,7 +34,7 @@ const About = () => {
                     className={styles["text-div"]}>
                         <h3> What do I do?</h3>
                         <p>
-                            I combine research, user flows, storytelling and creativity to transform basic ideas into interesting solutions. I understand user demands and build solutions to effectively meet them.
+                            I combine research, user flows, storytelling and creativity to transform basic ideas into interesting solutions, understand user demands and build solutions to effectively meet them.
                             </p>
 
                     </div>
