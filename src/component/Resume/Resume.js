@@ -163,7 +163,7 @@ const Resume = () => {
                   </div> */}
                   <Button button={'Download Resume'} />
 
-            <Link to="/resume">
+            <Link to="/contact">
                 <div className={styles["boxes"]}
                 data-aos="fade-up"
                 data-aos-easing="linear"
