@@ -42,6 +42,11 @@
   
 }
 
+.work-content .kelo #desrio{
+  margin-top: 3.2em;
+  
+}
+
 .work-content h2 {
  
   font-size: 3em;
@@ -49,6 +54,11 @@
   font-weight: bold;
 }
 
+.work-content p {
+  font-size: 1.1em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
 .work-content p {
   font-size: 1.1em;
   font-style: italic;

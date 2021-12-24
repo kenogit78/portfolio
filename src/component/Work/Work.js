@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './work.module.css';
 import ZuriChat from '../../assets/zurichat.PNG';
-import Kelo from '../../assets/kelo.png';
+import Desrio from '../../assets/desrio.PNG';
 import { Link } from 'react-router-dom';
 import { HiArrowSmRight } from 'react-icons/hi';
 // import {  FaGithub, FaLink  } from 'react-icons/fa';
@@ -81,13 +81,15 @@ const Work = () => {
                    data-aos="fade-up"
                    data-aos-easing="linear"
                    data-aos-duration="300"
-                    className={styles["kelo"]}>
-                        <a href="https://epic-edison-44cffb.netlify.app/">
-                            <img src={Kelo} alt="" />
+                    className={styles["kelo"]}
+                    
+                    >
+                        <a href="https://www.desrio.com/">
+                            <img src={Desrio} alt="" />
                         </a>
 
-                    <div className={styles.chat}>
-                        <h3> Kelo  App</h3>
+                    <div className={styles.chat} id={styles.desrio}>
+                        <h3> Desrio </h3>
                     <div className={styles["details"]} >
                         {/* <h3>About Kelo</h3>
                         <p> Kelo is a web application that helps people find places like hotels, restaurants and attractions. Implemented with Google Maps api, you can easily access places around you</p>

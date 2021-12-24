@@ -3,6 +3,7 @@ import styles from './resume.module.css';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { HiArrowSmRight } from 'react-icons/hi';
+import Button from '../Button/Button';
 
 const Resume = () => {
     return (
@@ -157,9 +158,10 @@ const Resume = () => {
 
             </section>
 
-            <div className={styles["box"]} >
+            {/* <div className={styles["box"]} >
                        <h4>Download Resume  </h4>  
-                  </div>
+                  </div> */}
+                  <Button button={'Download Resume'} />
 
             <Link to="/resume">
                 <div className={styles["boxes"]}

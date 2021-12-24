@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import styles from './contact.module.css';
 // import Image from '../../assets/keno.png';
 
@@ -45,9 +46,11 @@ const Contact = () => {
                        placeholder="Your message"></textarea>
 
 
-                        <div className={styles["box"]} >
+                        {/* <div className={styles["box"]} >
                        <h3>Send  </h3>  
-                  </div>
+                  </div> */}
+
+                  <Button button={'Send'} />
          
                     </form>
                 </div>
