@@ -11,7 +11,7 @@ height: 80px;
 z-index: 10;
 justify-content: space-between;
 align-items: center;
-padding: 2em 0;
+padding: 1.8em 4em;
 position: sticky;
 background: #fff;
 top: 0;
@@ -20,6 +20,8 @@ top: 0;
 
 @media screen and (max-width: 768px){
     padding: 1em;
+    height: 60px;
+
 }
 `
 

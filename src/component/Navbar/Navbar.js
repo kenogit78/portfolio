@@ -31,13 +31,13 @@ const Navbar = ( { toggle } ) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='/project'
-                        spy={true} smooth={true} duration={500}
-                        > Projects </NavLinks>
+                        <NavLinks to='/project'spy={true} smooth={true} duration={500} > Work </NavLinks>
                     </NavItem>
-                    <NavItem>
+
+                    {/* <NavItem>
                         <NavLinks to='/resume' spy={true} smooth={true} duration={500}> Resume </NavLinks>
-                    </NavItem>
+                    </NavItem> */}
+                    
                     <NavItem>
                         <NavLinks to='/about' spy={true} smooth={true} duration={500}> About </NavLinks>
                     </NavItem>

@@ -144,7 +144,7 @@
 @media screen and (max-width: 528px) {
 
   .home-container {
-    margin-top: 3em;
+    margin: 4em 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,12 +177,12 @@
     padding: 3em;
   }
   .text p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.34m;
   }
 
   .text .box p {
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1.34m;
   }
   .home-container .text {
@@ -191,4 +191,5 @@
   .box {
     margin-top: 0.5em;
   }
+ 
 }
