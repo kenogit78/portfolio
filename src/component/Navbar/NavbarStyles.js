@@ -15,7 +15,7 @@ padding: 2em 0;
 position: sticky;
 background: #fff;
 top: 0;
-box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
+
 
 
 @media screen and (max-width: 768px){

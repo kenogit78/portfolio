@@ -2,6 +2,7 @@ import React from 'react';
 // import styles from './navbar.module.css';
 // import { motion } from 'framer-motion';
 // import { BiMessageDots } from "react-icons/bi";
+import Logo from '../../assets/logo.png'
 
 import { 
     NavContainer, 
@@ -24,7 +25,7 @@ const Navbar = ( { toggle } ) => {
         <NavContainer>
 
 
-             <NavLogo to='/'>   paulkeno </NavLogo>
+             <NavLogo to='/'> <img src={Logo} alt={Logo} />   </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaIcon />
                 </MobileIcon>

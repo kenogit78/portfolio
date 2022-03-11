@@ -11,24 +11,31 @@ const Homepage = () => {
             <div className={styles["home-container"]}>
 
                 <div className={styles["text"]} >
-                    <h1
+                    <p
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="300"
                     > 
-                        Hi, I'm Paul Keno Adaroje
-                    </h1>
+                        Hi, I'm Keno 
+                    </p>
                     
                    
                     
-                    <p
+                    <h1
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="400"
-                    > a <span> Fullstack Web Developer.</span>
-                    </p>
+                    > Fullstack Software Engineer
+                    </h1>
+                    
+                    <h3
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="400"
+                    > I solve problems through codes
+                    </h3>
                     <br />
-                  
+{/*                   
                     <p
                     data-aos="fade-up"
                     data-aos-easing="linear"
@@ -43,7 +50,7 @@ const Homepage = () => {
                     data-aos-duration="400"
                     > I'm experienced in developing websites, eCommerce, web applications, 
                     creating site engines from scratch, Complex database design, implementing real-time updates of content.
-                    </p>
+                    </p> */}
                     <Link to="/about">
                     <div className={styles["box"]}
                     data-aos="fade-up"

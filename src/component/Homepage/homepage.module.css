@@ -17,6 +17,7 @@
 
 .home-container .text {
   width: 65%;
+  text-align: center;
  
 }
 
@@ -25,9 +26,17 @@
 }
 
 .home-container .text h1 {
-
-  margin-bottom: 0.2em;
+  font-size: 40px;
+  margin-top: 0.5em;
   color: #00000f;
+  font-weight: 700;
+}
+
+.home-container .text h3 {
+  font-size: 28px;
+  margin-top: 0.5em;
+  color: #00000f;
+  font-weight: 500;
 }
 
 
@@ -36,17 +45,18 @@
 }
 
 .text p {
-  font-size: 1.2em;
+  font-size: 28px;
   line-height: 1.5em;
   color: #333;
 }
 
 .box {
+  width: 100%;
   display: flex;
   margin-top: 1em;
- 
+  justify-content: center;
   color: #333;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .box p {
