@@ -21,9 +21,7 @@
  
 }
 
-.home-container .text a {
-  text-decoration: none;
-}
+
 
 .home-container .text h1 {
   font-size: 40px;
@@ -120,17 +118,7 @@
   .text {
     width: 90%;
   }
-  .profile {
-    padding: 4em;
-    width: 100%;
-  }
-  .profile img {
-    border-radius: 50%;
-    border: 3px solid #505050;
-    height: 75%;
-    width: 90%;
-    text-align: center;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -163,10 +151,21 @@
     justify-content: flex-start;
     height: fit-content;
   }
-  .text h1 {
-    font-size: 2.5em;
+  .home-container .text h1 {
+    font-size: 25px;
+    margin-top: 0.5em;
+    color: #00000f;
+    font-weight: 700;
   }
 
+  .home-container .text h3 {
+    font-size: 20px;
+    margin-top: 0.5em;
+    color: #00000f;
+    font-weight: 500;
+  }
+  
+  
   .profile img {
     border-radius: 50%;
     border: 3px solid #505050;
@@ -178,7 +177,7 @@
     padding: 3em;
   }
   .text p {
-    font-size: 1em;
+    font-size: 18px;
     line-height: 1.34m;
   }
 
@@ -188,5 +187,8 @@
   }
   .home-container .text {
     width: 100%;
+  }
+  .box {
+    margin-top: 0.5em;
   }
 }

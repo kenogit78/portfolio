@@ -56,7 +56,7 @@ const Homepage = () => {
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="400" >
-                       <p>See more about me  </p> 
+                       <p>Learn more about me  </p> 
                        <div className={styles.icon}> <HiArrowSmRight fontSize='1.2em' /> </div>
                   </div>
                   </Link>
