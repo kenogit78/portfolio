@@ -42,7 +42,8 @@ const Navbar = ( { toggle } ) => {
                         <NavLinks to='/about' spy={true} smooth={true} duration={500}> About </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='/contact' spy={true} smooth={true} duration={500}> Contact </NavLinks>
+                       
+                        <a href="mailto:paulkenoofficial@gmail.com"> Contact </a>
                     </NavItem>
                 </NavMenu>
 

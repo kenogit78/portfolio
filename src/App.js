@@ -9,8 +9,6 @@ import Navbar from './component/Navbar/Navbar';
 import Sidebar from "./component/Navbar/Sidebar";
 import Projects from "./component/Projects/Projects";
 import About from "./component/About/About";
-import Contact from "./component/Contact/Contact";
-import Resume from "./component/Resume/Resume";
 import Footer from "./component/Footer/Footer";
 import ScrollToTop from "./component/Homepage/ScrollTop";
 
@@ -36,10 +34,6 @@ function App() {
         <Route exact path="/project" component={Projects} />
 
         <Route exact path="/about" component={About} />
-
-        <Route exact path="/contact" component={Contact} />
-
-        <Route exact path="/resume" component={Resume} />
        
       </Switch>
 

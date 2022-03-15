@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './about.module.css';
-import Image from '../../assets/keno.png';
 
 const About = () => {
     return (
@@ -14,61 +13,31 @@ const About = () => {
 
             <div className={styles["about-content"]}>
 
-                <section className={styles["text"]}>
+                <section className={styles["text"]}>    
 
-                    <div
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="400"
-                    className={styles["text-div"]}>
-                        <h3> Who am I?</h3>
-                        <p> My name is <span> Adaroje Paul Keno,</span> I am a Web Developer based in Ibadan, Nigeria. I have a B.ENG in Electrical/Electronics Engineering and a background in Design.
-                            </p>
+                <div>
+                
+                <a href="https://docs.google.com/document/d/1ros3E9QQK5ZUJdHDXgDTF7j0sVjIto0G8tSbossR5qk/edit?usp=sharing"> 
+                View my resume  </a>  or
+                <a href="http://github.com/kenogit78">Visit my Github profile </a>
+                
+                    <p>
+                        Hi, I'm Keno, a Software Engineer who's passionate about solving problems with code. 
+                        My most recent team is GECKO FIVE where we are building an incredible product in the sport niche, building a social media app around sports; 
+                        I built the majority of the user-and-model interactions, conversations api, highlight feature and a couple of other features.
+                    </p>
 
-                    </div>
+                    <p> In 2021, I also did a 3 month internship with the renowned HNG internship team, 
+                        where I led a team that built an amazing product called zurichat. The product will be launched soon <a href="https://www.zuri.chat/">link here</a> 
+                    </p>
 
-                    <div 
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="400"
-                    className={styles["text-div"]}>
-                        <h3> What do I do?</h3>
-                        <p>
-                            I combine research, user flows, storytelling and creativity to transform basic ideas into interesting solutions, understand user demands and build solutions to effectively meet them.
-                            </p>
-
-                    </div>
-
-                    <div 
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="400"
-                    className={styles["text-div"]}>
-                        <h3> What am I passionate about?</h3>
-                        <p>
-                            As a creative developer, I derive pleasure in translating ideas into tangible results.
-                            </p>
-
-                        
-                        <br />
-                        <p>
-                            I am extremely passionate about creating beautiful experience on the web, building unique products that creates amazing user experiences.
-                        </p>
-
-                        
-                            <br />
-                        <p>
-                            Most importantly, I enjoy working with creative minds and diverse people to create amazing things together.
-                            
-                            </p>
-
-                    </div>
+                    <p> I’m familiar with technologies such as JavaScript, Typescript, React, Nextjs, Gatsbyjs, 
+                        Vue.js, CSS, SCSS, Framer Motion, styled-component, TailwindCSS, Nodejs, MongoDB, Firebase
+                    </p>
+                    
+                </div>
 
                 </section>
-
-                <div className={styles["profile"]}>
-                  <img className="" src= { Image } alt="profile" />
-                </div>
 
             </div>
 

@@ -21,15 +21,11 @@ const Sidebar = ({ toggle, isOpen }) => {
                     <SidebarLink  to='/project' onClick={toggle}>
                         Project
                     </SidebarLink>
-                    <SidebarLink to='/resume' onClick={toggle}>
-                        Resume
-                    </SidebarLink>
                     <SidebarLink to='/about' onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to='/contact' onClick={toggle}>
-                        Contact
-                    </SidebarLink>
+                   
+                    <a href="mailto:paulkenoofficial@gmail.com"> Contact </a>
 
                 </SidebarMenu>
              </SidebarWrapper>

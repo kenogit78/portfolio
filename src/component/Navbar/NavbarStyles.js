@@ -79,6 +79,10 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     // font-family: Lato;
 
+    a{
+        text-decoration: none;
+        color: #505050
+    }
     
 `
 
@@ -139,6 +143,11 @@ export const SidebarContainer = styled.aside`
     grid-template-columns : 1fr;
     grid-template-rows : repeat(4, 100px);
     text-align: center;
+
+    a{
+        text-decoration: none;
+        color: #fff
+    }
 
     @media screen and (max-width: 400px) {
         grid-template-rows : repeat(4, 80px);

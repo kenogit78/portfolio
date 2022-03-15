@@ -32,7 +32,7 @@ const Homepage = () => {
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="400"
-                    > I solve problems through codes
+                    > I solve problems through code
                     </h3>
                     <br />
 {/*                   
