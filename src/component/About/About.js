@@ -31,6 +31,11 @@ const About = () => {
                         where I led a team that built an amazing product called zurichat. The product will be launched soon <a href="https://www.zuri.chat/">link here</a> 
                     </p>
 
+                    <p>
+                    I'm also passionate about teaching others about tech. I engage a lot of newbies by teaching them from scratch and equipping them with the right resources. 
+                    The more reason why I joined the Side Hustle Internship platform where I mentor a lot of interns across Africa.
+                    </p>
+
                     <p> I’m familiar with technologies such as JavaScript, Typescript, React, Nextjs, Gatsbyjs, 
                         Vue.js, CSS, SCSS, Framer Motion, styled-component, TailwindCSS, Nodejs, MongoDB, Firebase
                     </p>

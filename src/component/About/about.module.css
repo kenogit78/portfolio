@@ -68,6 +68,11 @@ margin: 0.7em;
     margin: 0em;
     padding: 2em;
   }
+  .text {
+    padding: 0;
+    text-align: center;
+    
+  }
 
   .text p {
     font-size: 1em;
